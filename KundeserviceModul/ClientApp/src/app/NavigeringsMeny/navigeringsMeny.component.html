@@ -1,0 +1,32 @@
+﻿<header> 
+    <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+        <div class="container">
+            <a class="navbar-brand" routerLink="/tidligereStilteSporsmal">
+                <img class="bilde" src="norway.jpg" alt="Nor-Way logo" style="max-width: 250px; padding-top: 20px;">
+            </a>
+            <button class="navbar-toggler"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target=".navbar-collapse"
+                    aria-label="Toggle navigation"
+                    [attr.aria-expanded]="isExpanded"
+                    (click)="toggle()">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse"
+                 [ngClass]="{ show: isExpanded }">
+                <ul class="navbar-nav flex-grow">
+                    <li class="nav-item">
+                 
+                        <button type="button" class="btn btn-outline-info" routerLink="/tidligereStilteSporsmal">Tidligere stilte spørsmål</button>
+                    </li>
+                    <li class="nav-item">
+                        <button type="button" class="btn btn-outline-secondary" routerLink="/nyttSporsmal" >Nytt spørsmål</button>
+                        
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
