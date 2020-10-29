@@ -6,6 +6,7 @@ import { NyttSporsmalComponent } from './NyttSporsmal/nyttSporsmal.component';
 import { NavigeringsMenyComponent } from './NavigeringsMeny/navigeringsMeny.component';
 import { AppRoutingModule } from './app-routing.module';
 
+
 @NgModule({
   declarations: [
     AppComponent,

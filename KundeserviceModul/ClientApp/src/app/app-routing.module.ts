@@ -7,6 +7,7 @@ const appRoots: Routes = [
   { path: 'nyttSporsmal', component: NyttSporsmalComponent },
   { path: 'tidligereStilteSporsmal', component: TidligereStilteSporsmalComponent },
   { path: 'nyttSporsmal', redirectTo: '/', pathMatch: 'full' }
+  
 ]
 
 @NgModule({
