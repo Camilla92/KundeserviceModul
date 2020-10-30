@@ -1,10 +1,16 @@
+using Castle.Core.Logging;
+using KundeserviceModul.DAL;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.SpaServices.AngularCli;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Microsoft.Extensions.Logging;
+using System.Diagnostics.CodeAnalysis;
+
 
 namespace KundeserviceModul
 {
@@ -21,6 +27,9 @@ namespace KundeserviceModul
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
+            services.AddScoped<IKundeServiceRepository, KundeServiceReposity>();
+            services.AddDbContext<KundeServiceContekst>(options =>
+                       options.UseSqlite("Data Source=KundeService.db"));
             // In production, the Angular files will be served from this directory
             services.AddSpaStaticFiles(configuration =>
             {
@@ -34,10 +43,13 @@ namespace KundeserviceModul
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
+                //LoggerFactory.AddFile("Logg/feilLogg.txt");
+                DBInit.Initialize(app);
             }
             else
             {
                 app.UseExceptionHandler("/Error");
+              
                 // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                 app.UseHsts();
             }
