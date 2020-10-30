@@ -3,7 +3,7 @@
     <br />
     
 
-    <form>
+    <form [formGroup]="Skjema" (ngSubmit)="onSubmit()">
 
         <!--kode fra https://getbootstrap.com/docs/4.0/components/forms/ -->
         <div class="col-sm-6">
@@ -12,13 +12,13 @@
                 
 
                 <label for="exampleFormControlInput1">Epostadresse</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" formControlName="dinEpost">
             </div>
             <div class="form-group">
                 <label for="exampleFormControlTextarea1">Skriv spørsmålet ditt her</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" formControlName="dittSporsmal"></textarea>
             </div>
-            <button type="button" class="btn btn-primary">Send spørsmål</button>
+            <button type="submit" class="btn btn-primary" [disabled]="!Skjema.valid">Send spørsmål</button>
             <button type="button" class="btn btn-danger"routerLink="/tidligereStilteSporsmal">Avbryt</button>
             <br />
             <br />

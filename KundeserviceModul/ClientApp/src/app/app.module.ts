@@ -5,6 +5,8 @@ import { TidligereStilteSporsmalComponent } from './TidligereStilteSporsmal/tidl
 import { NyttSporsmalComponent } from './NyttSporsmal/nyttSporsmal.component';
 import { NavigeringsMenyComponent } from './NavigeringsMeny/navigeringsMeny.component';
 import { AppRoutingModule } from './app-routing.module';
+import { HttpClientModule } from '@angular/common/http';
+import { ReactiveFormsModule } from '@angular/forms'; 
 
 
 @NgModule({
@@ -16,7 +18,10 @@ import { AppRoutingModule } from './app-routing.module';
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'ng-cli-universal' }),
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule,
+    ReactiveFormsModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]

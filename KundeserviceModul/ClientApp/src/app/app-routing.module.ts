@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { TidligereStilteSporsmalComponent } from './TidligereStilteSporsmal/tidligereStilteSporsmal.component';
 import { NyttSporsmalComponent } from './NyttSporsmal/nyttSporsmal.component';
-
+import { ReactiveFormsModule } from '@angular/forms'; 
 const appRoots: Routes = [
   { path: 'nyttSporsmal', component: NyttSporsmalComponent },
   { path: 'tidligereStilteSporsmal', component: TidligereStilteSporsmalComponent },
@@ -12,7 +12,8 @@ const appRoots: Routes = [
 
 @NgModule({
   imports: [
-    RouterModule.forRoot(appRoots)
+    RouterModule.forRoot(appRoots),
+    ReactiveFormsModule
   ],
   exports: [
     RouterModule
