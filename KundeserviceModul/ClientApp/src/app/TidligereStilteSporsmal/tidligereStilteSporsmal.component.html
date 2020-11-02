@@ -1,11 +1,26 @@
 ﻿
-    <h1>Tidligere stilte spørsmål</h1>
-    <!--<button (click)='hentAlleSporsmal()'>Hent spørsmål</button>
+<h1>Tidligere stilte spørsmål</h1>
+<div>
+    <button (click)='hentAlleSporsmal()'>Hent spørsmål</button>
     {{laster}}
-    <ul>
-        <li *ngFor='let svarene of alleSvarene'>
-            {{svarene.SvarlId}} : {{svarene.Svaret}} {{sporsmal.sporsmalet}}
 
-        </li>
-    </ul>
-    -->
+    <div ng-app="minKlasse" ng-controller="myCtrl">
+
+        
+        <div *ngFor='let svarene of alleSporsmal'>
+            <br />
+            <div class=" border border-success">
+                <button type="submit" (ngSubmit)="onSubmit()"> {{svarene.svarId}} : {{svarene.sporsmalet}} </button>
+
+                <div class="svaret">{{svarene.svaret}}</div>
+                <br />
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+
+
+

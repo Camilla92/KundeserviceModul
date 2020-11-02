@@ -19,27 +19,34 @@ namespace KundeserviceModul.DAL
         {
         }
 
-        public async Task<bool> Lagre(Sporsmal innSporsmal)
+        public async Task<bool> Lagre(SporsmalSvar innSporsmal)
         {
 
     
-            var nySporsmalRad = new Sporsmal();
+            var nySporsmalRad = new SporsmalSvar();
             nySporsmalRad.Sporsmalet = innSporsmal.Sporsmalet;
-            _db.Sporsmal.Add(nySporsmalRad);
+            _db.SporsmalSvar.Add(nySporsmalRad);
             await _db.SaveChangesAsync();
             return true;
 
             
         }
 
-        public async Task<List<Svar>> HentAlle()
+        public async Task<List<SporsmalSvar>> HentAlle()
         {
-
-            List<Svar> alleSvar = await _db.Svar.ToListAsync();
-            return alleSvar;
+            
+            List<SporsmalSvar> alleSvar = await _db.SporsmalSvar.ToListAsync();
            
+            return alleSvar;
+            
+
+            
+
         }
 
-        
+
+
+
+
     }
 }

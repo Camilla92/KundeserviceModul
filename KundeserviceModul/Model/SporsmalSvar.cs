@@ -5,11 +5,11 @@ namespace KundeserviceModul.Model
     {
         
 
-          public int Id { get; set; }
+          public int id { get; set; }
           //Spørsmål
-          public string Sporsmalet { get; set; }
+          public string sporsmalet { get; set; }
           //Svar
-          public string Svaret { get; set; }
+          public string svaret { get; set; }
         
 
     }

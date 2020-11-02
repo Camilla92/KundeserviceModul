@@ -5,8 +5,8 @@ import { NyttSporsmalComponent } from './NyttSporsmal/nyttSporsmal.component';
 import { ReactiveFormsModule } from '@angular/forms'; 
 const appRoots: Routes = [
   { path: 'nyttSporsmal', component: NyttSporsmalComponent },
-  { path: 'tidligereStilteSporsmal', component: TidligereStilteSporsmalComponent },
-  { path: 'nyttSporsmal', redirectTo: '/', pathMatch: 'full' }
+  { path: '', component: TidligereStilteSporsmalComponent },
+ 
   
 ]
 

@@ -7,6 +7,7 @@ using Microsoft.Extensions.Logging;
 
 namespace KundeserviceModul.Controllers
 {
+    [Route("api/[controller]")]
     public class KundeServiceController : ControllerBase
     {
         
@@ -18,13 +19,15 @@ namespace KundeserviceModul.Controllers
             _db = db;
             _log = log;
         }
-
+        [HttpGet]
         public async Task<ActionResult> HentAlle()
         {
-            List<Svar> alleSvarene = await _db.HentAlle();
+            List<SporsmalSvar> alleSvarene = await _db.HentAlle();
             return Ok(alleSvarene);
         }
-        public async Task<ActionResult> Lagre(Sporsmal innSporsmal)
+
+        [HttpPost]
+        public async Task<ActionResult> Lagre(SporsmalSvar innSporsmal)
         {
             if (ModelState.IsValid)
             {
