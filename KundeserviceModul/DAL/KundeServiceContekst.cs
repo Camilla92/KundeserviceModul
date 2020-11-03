@@ -17,8 +17,9 @@ namespace KundeserviceModul.DAL
                 Database.EnsureCreated();
             }
 
-        //public virtual DbSet<Sporsmal> Sporsmal { get; set; }
+        public virtual DbSet<VurderingSporsmal> VurderingSporsmal { get; set; }
         public virtual DbSet<SporsmalSvar> SporsmalSvar { get; set; }
+        public virtual DbSet<InnsendteSporsmal> InnsendteSporsmal { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {

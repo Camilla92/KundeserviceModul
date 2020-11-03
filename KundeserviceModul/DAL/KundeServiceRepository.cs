@@ -19,13 +19,15 @@ namespace KundeserviceModul.DAL
         {
         }
 
-        public async Task<bool> Lagre(SporsmalSvar innSporsmal)
+        public async Task<bool> Lagre(InnsendteSporsmal innSporsmal, InnsendteSporsmal innEpost)
         {
 
     
-            var nySporsmalRad = new SporsmalSvar();
+            var nySporsmalRad = new InnsendteSporsmal();
+            
             nySporsmalRad.Sporsmalet = innSporsmal.Sporsmalet;
-            _db.SporsmalSvar.Add(nySporsmalRad);
+            nySporsmalRad.Epost = innEpost.Epost;
+            _db.InnsendteSporsmal.Add(nySporsmalRad);
             await _db.SaveChangesAsync();
             return true;
 
@@ -41,6 +43,22 @@ namespace KundeserviceModul.DAL
             
 
             
+
+        }
+
+        public async Task<bool> LagreVurdering(VurderingSporsmal innID, int innVurderLiker, int innVurderMisliker)
+        {
+
+
+            var nyVurderingsRad = new VurderingSporsmal();
+
+            nyVurderingsRad.SvarId = innID.SvarId;
+            nyVurderingsRad.Liker = innVurderLiker++;
+            nyVurderingsRad.Misliker = innVurderMisliker++;
+            _db.VurderingSporsmal.Add(nyVurderingsRad);
+            await _db.SaveChangesAsync();
+            return true;
+
 
         }
 

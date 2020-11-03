@@ -1,23 +1,35 @@
 ﻿
+
 <h1>Tidligere stilte spørsmål</h1>
 <div>
-    <button (click)='hentAlleSporsmal()'>Hent spørsmål</button>
+    <button class="btn btn-outline-secondary" (click)='hentAlleSporsmal()'>Hent spørsmål</button>
     {{laster}}
 
-    <div ng-app="minKlasse" ng-controller="myCtrl">
+  
 
         
-        <div *ngFor='let svarene of alleSporsmal'>
+<div *ngFor='let svarene of alleSporsmal'>
+    <br />
+
+    <button type="submit" class="btn btn-info btn-block" (click)="skrivutSvar()"> {{svarene.svarId}} : {{svarene.sporsmalet}} </button>
+    <div id="svaret" class="svaret">
+        <div class=" border border-info" style="padding:20px">
+
+
+            {{svarene.svaret}}
             <br />
-            <div class=" border border-success">
-                <button type="submit" (ngSubmit)="onSubmit()"> {{svarene.svarId}} : {{svarene.sporsmalet}} </button>
-
-                <div class="svaret">{{svarene.svaret}}</div>
-                <br />
-            </div>
-
+            <br />
+            <button type="button" class="btn btn-outline-primary btn-sm">Liker</button>
+            <button type="button" class="btn btn-outline-danger btn-sm">Misliker</button>
         </div>
     </div>
+
+    <br />
+    <br />
+
+
+</div>
+ 
 </div>
 
 
