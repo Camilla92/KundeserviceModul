@@ -10,7 +10,11 @@ namespace KundeserviceModul.Model
           public string sporsmalet { get; set; }
           //Svar
           public string svaret { get; set; }
-        
+
+          //for rating  
+          public int liker { get; set; }
+          public int misliker { get; set; }
+
 
     }
 }

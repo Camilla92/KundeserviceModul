@@ -24,10 +24,10 @@ namespace KundeserviceModul.DAL
 
                 /*---------OPPRETTER SPØRSMÅL OG SVAR--------*/
 
-                var svar1 = new SporsmalSvar { Sporsmalet = "Hei!, hvordan bestiller jeg meg en billett?", Svaret = "Du bestiller billett ved å gå til bestillsiden til Nor-Way bussekspress eller av våre bussjafører." };
-                var svar2 = new SporsmalSvar { Sporsmalet = "Hei!, hvordan bestiller jeg en billett til barnet mitt?", Svaret = "Du bestiller billett ved å gå til bestillside til Nor-Way bussekspress og velger antall barn, eller du kan kjøpe billett av våre bussjafører." };
-                var svar3 = new SporsmalSvar { Sporsmalet = "Hei!, hvordan bestiller jeg billetter til flere personer?", Svaret = "Du bestiller billett ved å gå til bestillsiden til Nor-Way bussekspress og velger antall voksne eller antall barn eller du kan kjøppe billetter av våre bussjafører." };
-                var svar4 = new SporsmalSvar { Sporsmalet = "Hei!, hvordan bestiller jeg billett til hunden min?", Svaret = "Billetter til hunder går som barnebillett på vår bestillingsside." };
+                var svar1 = new SporsmalSvar { Sporsmalet = "Hei!, hvordan bestiller jeg meg en billett?", Svaret = "Du bestiller billett ved å gå til bestillsiden til Nor-Way bussekspress eller av våre bussjafører." , Liker = 1, Misliker = 10 };
+                var svar2 = new SporsmalSvar { Sporsmalet = "Hei!, hvordan bestiller jeg en billett til barnet mitt?", Svaret = "Du bestiller billett ved å gå til bestillside til Nor-Way bussekspress og velger antall barn, eller du kan kjøpe billett av våre bussjafører.", Liker = 10, Misliker = 1 };
+                var svar3 = new SporsmalSvar { Sporsmalet = "Hei!, hvordan bestiller jeg billetter til flere personer?", Svaret = "Du bestiller billett ved å gå til bestillsiden til Nor-Way bussekspress og velger antall voksne eller antall barn eller du kan kjøppe billetter av våre bussjafører.", Liker = 0, Misliker = 10 };
+                var svar4 = new SporsmalSvar { Sporsmalet = "Hei!, hvordan bestiller jeg billett til hunden min?", Svaret = "Billetter til hunder går som barnebillett på vår bestillingsside.", Liker = 0, Misliker = 10 };
 
 
                 context.SporsmalSvar.Add(svar1);
@@ -36,17 +36,7 @@ namespace KundeserviceModul.DAL
                 context.SporsmalSvar.Add(svar4);
 
 
-                /*---------OPPRETTER Vurdering --------*/
-
-                var vurdering1 = new VurderingSporsmal { SvarId = svar1, Liker = 1, Misliker = 10 };
-                var vurdering2 = new VurderingSporsmal { SvarId = svar2, Liker = 10, Misliker = 1 };
-                var vurdering3 = new VurderingSporsmal { SvarId = svar3, Liker = 0, Misliker = 10 };
-                var vurdering4 = new VurderingSporsmal { SvarId = svar4, Liker = 1, Misliker = 100 };
-
-                context.VurderingSporsmal.Add(vurdering1);
-                context.VurderingSporsmal.Add(vurdering2);
-                context.VurderingSporsmal.Add(vurdering3);
-                context.VurderingSporsmal.Add(vurdering4);
+           
 
                 /*---------OPPRETTER InnsendteSpørsmål --------*/
 

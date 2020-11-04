@@ -17,7 +17,7 @@ namespace KundeserviceModul.DAL
                 Database.EnsureCreated();
             }
 
-        public virtual DbSet<VurderingSporsmal> VurderingSporsmal { get; set; }
+        
         public virtual DbSet<SporsmalSvar> SporsmalSvar { get; set; }
         public virtual DbSet<InnsendteSporsmal> InnsendteSporsmal { get; set; }
 

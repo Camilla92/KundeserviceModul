@@ -1,18 +1,25 @@
 import { Component } from '@angular/core';
 import { FormGroup, FormControl, Validators, FormBuilder } from '@angular/forms';
+//import { error } from 'protractor';
+import { HttpClient } from '@angular/common/http';
+import { Router } from '@angular/router';
 
 @Component({
   //selector: 'app-root', denne gjør ikke noe da det er routing som gjelder
   templateUrl: './nyttSporsmal.component.html'
 })
 export class NyttSporsmalComponent {
+
+  //visSkjemaRegistrere: boolean;
+  //visListe: boolean;
   Skjema: FormGroup;
-  constructor(private fb: FormBuilder)
-  {
+  //innsendteSporsmal: Array<InnsendteSporsmal> = [];
+
+  constructor(private _http: HttpClient, private fb: FormBuilder, private router: Router) {
     this.Skjema = fb.group({
 
       dinEpost: ["", Validators.pattern("[\\w-\\.]+@([\\w-]+\\.)+[\\w-]{2,4}")],
-      dittSporsmal: ["Spørsmålet må være mellom 10 og 300 tegn.", Validators.pattern("[a-zA-Z .,\?\-]{10,50}")]
+      dittSporsmal: ["Spørsmålet må være mellom 10 og 50 tegn.", Validators.pattern("[a-zA-Z .,\?\-]{10,50}")]
 
 
     });
@@ -24,5 +31,36 @@ export class NyttSporsmalComponent {
     console.log(this.Skjema);
     console.log(this.Skjema.value.dittSporsmal);
     console.log(this.Skjema.value.dinEpost);
+    this.lagre();
   }
+
+  lagre() {
+
+    const etSporsmal = new InnsendteSporsmal();
+    /*this.innsendteSporsmal.push(etSporsmal);
+    this.sporsmalet = "";
+    this.epost = "";*/
+    //lagretKunde.poststed = this.skjema.value.poststed;
+
+    etSporsmal.sporsmalet = this.Skjema.value.dittSporsmal;
+    etSporsmal.epost = this.Skjema.value.dinEpost;
+
+   
+
+    this._http.post("api/KundeService", etSporsmal)
+    .subscribe(retur => {
+      this.router.navigate(['/']);
+    },
+      error => console.log("feilen er"+ error)
+    );
+    };
+
+}
+
+export class InnsendteSporsmal {
+
+  spmlID: number;
+  sporsmalet: string;
+  epost: string;
+
 }

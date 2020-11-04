@@ -19,8 +19,11 @@
             {{svarene.svaret}}
             <br />
             <br />
-            <button type="button" class="btn btn-outline-primary btn-sm">Liker</button>
-            <button type="button" class="btn btn-outline-danger btn-sm">Misliker</button>
+            <button type="button" class="btn btn-outline-primary btn-sm" (click)="liker2()" [disabled]="click1">Liker {{svarene.liker}}</button>
+
+            <button type="button" class="btn btn-outline-danger btn-sm" (click)="misliker2()" [disabled]="click2">Misliker {{svarene.misliker}}</button>
+            <div>Mine liker: {{liker}}</div>
+            <div>Mine misliker: {{misliker}}</div>
         </div>
     </div>
 
