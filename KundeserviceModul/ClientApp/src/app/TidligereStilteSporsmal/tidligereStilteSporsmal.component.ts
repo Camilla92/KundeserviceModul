@@ -4,6 +4,7 @@ import { FormGroup, FormControl, Validators, FormBuilder } from '@angular/forms'
 import { Router } from '@angular/router';
 import { NgModule } from '@angular/core';
 //import { Component } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
 
 
 
@@ -25,11 +26,12 @@ export class TidligereStilteSporsmalComponent {
   public svaret: String;
   public click1: boolean = false;
   public click2: boolean = false;
+  //public buttons = Array(10).fill(false);
 
 
 
 
-  constructor(private _http: HttpClient, private router: Router) { }
+  constructor(private _http: HttpClient, private router: Router, private route: ActivatedRoute) { }
 
 
   hentAlleSporsmal() {
@@ -53,7 +55,7 @@ export class TidligereStilteSporsmalComponent {
 
   skrivutSvar() {
 
-    var vis = document.getElementById("svaret");
+    var vis = document.getElementById("svaret[indeks]");
     if (vis.style.display === "none") {
       vis.style.display = "block";
     } else {
@@ -66,21 +68,33 @@ export class TidligereStilteSporsmalComponent {
     
     this.click1 = !this.click1;
     this.liker++;
+    //let vurdering = this.alleSporsmal.find(f => f.svarId == svarId);
     this.lagreVurdering();
+    document.getElementById('utskrift').innerHTML = "Vurderingen din er sendt. Med vurderingen: " + this.liker;
     
   }
 
-
+  /*ngOnInit() {
+    this.route.params.subscribe(params => {
+      this.lagreVurdering(params.svarId);
+    })
+  }*/
 
   lagreVurdering() {
 
     const enVurdering = new SporsmalSvar();
     //må ha med svarid til svaret som blir ratet
 
+    //buttons[indeks] = true
+    //this.buttons = !this.buttons;
+
+    //let vurdering = this.alleSporsmal.find(f => f.svarId == svarId);
+    //this.liker++;
+
     enVurdering.liker = this.liker;
     
 
-    this._http.post("api/KundeService", enVurdering)
+    this._http.post("api/KundeService/lagreVurdering", enVurdering)
       .subscribe(retur => {
         this.router.navigate(["/"]);
       },

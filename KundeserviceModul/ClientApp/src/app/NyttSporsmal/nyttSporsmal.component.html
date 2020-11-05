@@ -16,7 +16,7 @@
                 <div *ngIf="this.Skjema.controls.dinEpost.status=='INVALID'" style="color:red" >Epost må være av dette formatet: name@example.com </div>
             </div>
             <div class="form-group">
-                <label for="exampleFormControlTextarea1">Skriv spørsmålet ditt her</label>
+                <label for="exampleFormControlTextarea1" >Skriv spørsmålet ditt her</label>
                 <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" formControlName="dittSporsmal" placeholder="Spørsmålet må være mellom 10-50 tegn." required></textarea>
                 <div *ngIf="this.Skjema.controls.dittSporsmal.status=='INVALID'" style="color:red">Spørsmålsfeltet kan ikke være tomt og må være mellom 10-50 tegn.</div>
             </div>
@@ -24,6 +24,9 @@
             <button type="button" class="btn btn-danger"routerLink="/">Avbryt</button>
             <br />
             <br />
+
+            <div id="sendt" style="color:green"></div>
+            <br/>
         </div>
 
     </form>

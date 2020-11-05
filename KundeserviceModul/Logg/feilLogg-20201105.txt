@@ -187,3 +187,240 @@ app/TidligereStilteSporsmal/tidligereStilteSporsmal.component.ts:6:10 - error TS
 2020-11-05T11:55:38.3936490+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
 2020-11-05T11:55:38.3937180+01:00  [INF] Hosting environment: "Development" (c3307c92)
 2020-11-05T11:55:38.3937720+01:00  [INF] Content root path: "/Users/camillacarlsen/Documents/GitHub/KundeserviceModul/KundeserviceModul" (b5d60022)
+2020-11-05T12:25:49.2583760+01:00  [ERR]     ERROR in src/app/NyttSporsmal/nyttSporsmal.component.ts(35,14): error TS2551: Property 'getElementsById' does not exist on type 'Document'. Did you mean 'getElementById'?
+    
+ (fa5b0e39)
+2020-11-05T12:25:57.7039310+01:00  [ERR]     ERROR in src/app/NyttSporsmal/nyttSporsmal.component.ts(35,14): error TS2551: Property 'getElementsById' does not exist on type 'Document'. Did you mean 'getElementById'?
+    
+ (fa5b0e39)
+2020-11-05T12:35:28.7007830+01:00  [ERR]     ERROR in src/app/TidligereStilteSporsmal/tidligereStilteSporsmal.component.ts(69,5): error TS2554: Expected 1 arguments, but got 0.
+    src/app/TidligereStilteSporsmal/tidligereStilteSporsmal.component.ts(74,10): error TS2551: Property 'route' does not exist on type 'TidligereStilteSporsmalComponent'. Did you mean 'router'?
+    
+ (3d2a924b)
+2020-11-05T12:41:36.6949180+01:00  [ERR]     ERROR in src/app/TidligereStilteSporsmal/tidligereStilteSporsmal.component.ts(69,5): error TS2554: Expected 1 arguments, but got 0.
+    src/app/TidligereStilteSporsmal/tidligereStilteSporsmal.component.ts(74,17): error TS2339: Property 'params' does not exist on type 'Router'.
+    
+ (fceac448)
+2020-11-05T12:43:41.7432990+01:00  [ERR]     ERROR in src/app/TidligereStilteSporsmal/tidligereStilteSporsmal.component.ts(70,5): error TS2554: Expected 1 arguments, but got 0.
+    
+ (c267dfa9)
+2020-11-05T12:58:19.4811100+01:00  [ERR]     ERROR in src/app/TidligereStilteSporsmal/tidligereStilteSporsmal.component.ts(70,5): error TS2554: Expected 1 arguments, but got 0.
+    
+ (c267dfa9)
+2020-11-05T12:59:35.3607370+01:00  [ERR]     ERROR in src/app/TidligereStilteSporsmal/tidligereStilteSporsmal.component.ts(70,5): error TS2554: Expected 1 arguments, but got 0.
+    
+ (c267dfa9)
+2020-11-05T13:01:32.8313970+01:00  [ERR]     ERROR in src/app/TidligereStilteSporsmal/tidligereStilteSporsmal.component.ts(70,61): error TS2304: Cannot find name 'svarId'.
+    src/app/TidligereStilteSporsmal/tidligereStilteSporsmal.component.ts(71,25): error TS2345: Argument of type 'SporsmalSvar' is not assignable to parameter of type 'number'.
+    
+ (ed89532a)
+2020-11-05T13:23:19.3271440+01:00  [ERR]     ERROR in src/app/TidligereStilteSporsmal/tidligereStilteSporsmal.component.ts(70,61): error TS2304: Cannot find name 'svarId'.
+    src/app/TidligereStilteSporsmal/tidligereStilteSporsmal.component.ts(71,25): error TS2345: Argument of type 'SporsmalSvar' is not assignable to parameter of type 'number'.
+    
+ (ed89532a)
+2020-11-05T13:25:18.9445810+01:00  [ERR]     ERROR in src/app/TidligereStilteSporsmal/tidligereStilteSporsmal.component.ts(70,61): error TS2304: Cannot find name 'svarId'.
+    src/app/TidligereStilteSporsmal/tidligereStilteSporsmal.component.ts(71,25): error TS2345: Argument of type 'SporsmalSvar' is not assignable to parameter of type 'number'.
+    
+ (ed89532a)
+2020-11-05T13:26:44.2674020+01:00  [ERR]     ERROR in src/app/TidligereStilteSporsmal/tidligereStilteSporsmal.component.ts(71,61): error TS2304: Cannot find name 'svarId'.
+    src/app/TidligereStilteSporsmal/tidligereStilteSporsmal.component.ts(72,25): error TS2345: Argument of type 'SporsmalSvar' is not assignable to parameter of type 'number'.
+    
+ (c152daf8)
+2020-11-05T13:27:15.5527520+01:00  [ERR]     ERROR in src/app/TidligereStilteSporsmal/tidligereStilteSporsmal.component.ts(71,61): error TS2304: Cannot find name 'svarId'.
+    src/app/TidligereStilteSporsmal/tidligereStilteSporsmal.component.ts(72,25): error TS2345: Argument of type 'SporsmalSvar' is not assignable to parameter of type 'number'.
+    
+ (c152daf8)
+2020-11-05T13:27:27.6523260+01:00  [ERR]     ERROR in src/app/TidligereStilteSporsmal/tidligereStilteSporsmal.component.ts(29,26): error TS2349: Cannot invoke an expression whose type lacks a call signature. Type 'Number' has no compatible call signatures.
+    src/app/TidligereStilteSporsmal/tidligereStilteSporsmal.component.ts(71,61): error TS2304: Cannot find name 'svarId'.
+    src/app/TidligereStilteSporsmal/tidligereStilteSporsmal.component.ts(72,25): error TS2345: Argument of type 'SporsmalSvar' is not assignable to parameter of type 'number'.
+    
+ (2fe410d0)
+2020-11-05T13:28:08.2993280+01:00  [ERR]     ERROR in src/app/TidligereStilteSporsmal/tidligereStilteSporsmal.component.ts(29,50): error TS2345: Argument of type 'false' is not assignable to parameter of type 'SporsmalSvar[]'.
+    src/app/TidligereStilteSporsmal/tidligereStilteSporsmal.component.ts(71,61): error TS2304: Cannot find name 'svarId'.
+    src/app/TidligereStilteSporsmal/tidligereStilteSporsmal.component.ts(72,25): error TS2345: Argument of type 'SporsmalSvar' is not assignable to parameter of type 'number'.
+    
+ (f3d87bb9)
+2020-11-05T13:30:54.9611070+01:00  [ERR]     ERROR in src/app/TidligereStilteSporsmal/tidligereStilteSporsmal.component.ts(29,50): error TS2345: Argument of type 'false' is not assignable to parameter of type 'SporsmalSvar[]'.
+    src/app/TidligereStilteSporsmal/tidligereStilteSporsmal.component.ts(71,61): error TS2304: Cannot find name 'svarId'.
+    src/app/TidligereStilteSporsmal/tidligereStilteSporsmal.component.ts(72,25): error TS2345: Argument of type 'SporsmalSvar' is not assignable to parameter of type 'number'.
+    
+ (f3d87bb9)
+2020-11-05T13:33:06.6514720+01:00  [ERR]     ERROR in src/app/TidligereStilteSporsmal/tidligereStilteSporsmal.component.ts(29,50): error TS2345: Argument of type 'false' is not assignable to parameter of type 'SporsmalSvar[]'.
+    src/app/TidligereStilteSporsmal/tidligereStilteSporsmal.component.ts(71,61): error TS2304: Cannot find name 'svarId'.
+    src/app/TidligereStilteSporsmal/tidligereStilteSporsmal.component.ts(72,25): error TS2345: Argument of type 'SporsmalSvar' is not assignable to parameter of type 'number'.
+    
+ (f3d87bb9)
+2020-11-05T13:35:14.7970720+01:00  [ERR]     ERROR in src/app/TidligereStilteSporsmal/tidligereStilteSporsmal.component.ts(29,50): error TS2345: Argument of type 'false' is not assignable to parameter of type 'SporsmalSvar[]'.
+    src/app/TidligereStilteSporsmal/tidligereStilteSporsmal.component.ts(71,61): error TS2304: Cannot find name 'svarId'.
+    src/app/TidligereStilteSporsmal/tidligereStilteSporsmal.component.ts(72,25): error TS2345: Argument of type 'SporsmalSvar' is not assignable to parameter of type 'number'.
+    
+    
+ (35616b52)
+2020-11-05T13:35:14.7981200+01:00  [ERR]     ERROR in src/app/TidligereStilteSporsmal/tidligereStilteSporsmal.component.ts(29,50): error TS2345: Argument of type 'false' is not assignable to parameter of type 'SporsmalSvar[]'.
+    src/app/TidligereStilteSporsmal/tidligereStilteSporsmal.component.ts(71,61): error TS2304: Cannot find name 'svarId'.
+    src/app/TidligereStilteSporsmal/tidligereStilteSporsmal.component.ts(72,25): error TS2345: Argument of type 'SporsmalSvar' is not assignable to parameter of type 'number'.
+    
+ (f3d87bb9)
+2020-11-05T13:36:03.7915260+01:00  [ERR]     ERROR in src/app/TidligereStilteSporsmal/tidligereStilteSporsmal.component.ts(29,50): error TS2345: Argument of type 'false' is not assignable to parameter of type 'SporsmalSvar[]'.
+    src/app/TidligereStilteSporsmal/tidligereStilteSporsmal.component.ts(71,61): error TS2304: Cannot find name 'svarId'.
+    src/app/TidligereStilteSporsmal/tidligereStilteSporsmal.component.ts(72,25): error TS2345: Argument of type 'SporsmalSvar' is not assignable to parameter of type 'number'.
+    
+    
+ (35616b52)
+2020-11-05T13:36:03.7927600+01:00  [ERR]     ERROR in src/app/TidligereStilteSporsmal/tidligereStilteSporsmal.component.ts(29,50): error TS2345: Argument of type 'false' is not assignable to parameter of type 'SporsmalSvar[]'.
+    src/app/TidligereStilteSporsmal/tidligereStilteSporsmal.component.ts(71,61): error TS2304: Cannot find name 'svarId'.
+    src/app/TidligereStilteSporsmal/tidligereStilteSporsmal.component.ts(72,25): error TS2345: Argument of type 'SporsmalSvar' is not assignable to parameter of type 'number'.
+    
+ (f3d87bb9)
+2020-11-05T13:37:30.0862350+01:00  [ERR]     ERROR in src/app/TidligereStilteSporsmal/tidligereStilteSporsmal.component.ts(29,50): error TS2345: Argument of type 'false' is not assignable to parameter of type 'SporsmalSvar[]'.
+    src/app/TidligereStilteSporsmal/tidligereStilteSporsmal.component.ts(71,61): error TS2304: Cannot find name 'svarId'.
+    src/app/TidligereStilteSporsmal/tidligereStilteSporsmal.component.ts(72,25): error TS2345: Argument of type 'SporsmalSvar' is not assignable to parameter of type 'number'.
+    src/app/TidligereStilteSporsmal/tidligereStilteSporsmal.component.ts(87,5): error TS2663: Cannot find name 'buttons'. Did you mean the instance member 'this.buttons'?
+    src/app/TidligereStilteSporsmal/tidligereStilteSporsmal.component.ts(87,13): error TS2304: Cannot find name 'indeks'.
+    
+ (d003ce2e)
+2020-11-05T13:37:39.1564130+01:00  [ERR]     ERROR in src/app/TidligereStilteSporsmal/tidligereStilteSporsmal.component.ts(29,50): error TS2345: Argument of type 'false' is not assignable to parameter of type 'SporsmalSvar[]'.
+    src/app/TidligereStilteSporsmal/tidligereStilteSporsmal.component.ts(71,61): error TS2304: Cannot find name 'svarId'.
+    src/app/TidligereStilteSporsmal/tidligereStilteSporsmal.component.ts(72,25): error TS2345: Argument of type 'SporsmalSvar' is not assignable to parameter of type 'number'.
+    src/app/TidligereStilteSporsmal/tidligereStilteSporsmal.component.ts(87,5): error TS2663: Cannot find name 'buttons'. Did you mean the instance member 'this.buttons'?
+    src/app/TidligereStilteSporsmal/tidligereStilteSporsmal.component.ts(87,13): error TS2304: Cannot find name 'indeks'.
+    
+ (d003ce2e)
+2020-11-05T13:40:58.4029190+01:00  [ERR]     ERROR in src/app/TidligereStilteSporsmal/tidligereStilteSporsmal.component.ts(29,50): error TS2345: Argument of type 'false' is not assignable to parameter of type 'SporsmalSvar[]'.
+    src/app/TidligereStilteSporsmal/tidligereStilteSporsmal.component.ts(71,61): error TS2304: Cannot find name 'svarId'.
+    src/app/TidligereStilteSporsmal/tidligereStilteSporsmal.component.ts(72,25): error TS2345: Argument of type 'SporsmalSvar' is not assignable to parameter of type 'number'.
+    src/app/TidligereStilteSporsmal/tidligereStilteSporsmal.component.ts(87,5): error TS2663: Cannot find name 'buttons'. Did you mean the instance member 'this.buttons'?
+    src/app/TidligereStilteSporsmal/tidligereStilteSporsmal.component.ts(87,13): error TS2304: Cannot find name 'indeks'.
+    
+ (d003ce2e)
+2020-11-05T13:41:27.1206090+01:00  [ERR]     ERROR in src/app/TidligereStilteSporsmal/tidligereStilteSporsmal.component.ts(29,50): error TS2345: Argument of type 'false' is not assignable to parameter of type 'SporsmalSvar[]'.
+    src/app/TidligereStilteSporsmal/tidligereStilteSporsmal.component.ts(71,61): error TS2304: Cannot find name 'svarId'.
+    src/app/TidligereStilteSporsmal/tidligereStilteSporsmal.component.ts(72,25): error TS2345: Argument of type 'SporsmalSvar' is not assignable to parameter of type 'number'.
+    src/app/TidligereStilteSporsmal/tidligereStilteSporsmal.component.ts(87,5): error TS2663: Cannot find name 'buttons'. Did you mean the instance member 'this.buttons'?
+    src/app/TidligereStilteSporsmal/tidligereStilteSporsmal.component.ts(87,13): error TS2304: Cannot find name 'indeks'.
+    
+ (d003ce2e)
+2020-11-05T13:44:16.1192900+01:00  [ERR]     ERROR in src/app/TidligereStilteSporsmal/tidligereStilteSporsmal.component.ts(29,50): error TS2345: Argument of type 'false' is not assignable to parameter of type 'SporsmalSvar[]'.
+    src/app/TidligereStilteSporsmal/tidligereStilteSporsmal.component.ts(71,61): error TS2304: Cannot find name 'svarId'.
+    src/app/TidligereStilteSporsmal/tidligereStilteSporsmal.component.ts(72,25): error TS2345: Argument of type 'SporsmalSvar' is not assignable to parameter of type 'number'.
+    src/app/TidligereStilteSporsmal/tidligereStilteSporsmal.component.ts(88,5): error TS2322: Type 'boolean' is not assignable to type 'SporsmalSvar[][]'.
+    
+    
+ (948224b3)
+2020-11-05T13:48:04.5441010+01:00  [ERR]     ERROR in src/app/TidligereStilteSporsmal/tidligereStilteSporsmal.component.ts(29,50): error TS2345: Argument of type 'false' is not assignable to parameter of type 'SporsmalSvar[]'.
+    src/app/TidligereStilteSporsmal/tidligereStilteSporsmal.component.ts(71,61): error TS2304: Cannot find name 'svarId'.
+    src/app/TidligereStilteSporsmal/tidligereStilteSporsmal.component.ts(72,25): error TS2345: Argument of type 'SporsmalSvar' is not assignable to parameter of type 'number'.
+    src/app/TidligereStilteSporsmal/tidligereStilteSporsmal.component.ts(88,5): error TS2322: Type 'boolean' is not assignable to type 'SporsmalSvar[][]'.
+    
+    
+ (948224b3)
+2020-11-05T13:48:04.5451730+01:00  [ERR]     ERROR in src/app/TidligereStilteSporsmal/tidligereStilteSporsmal.component.ts(71,61): error TS2304: Cannot find name 'svarId'.
+    src/app/TidligereStilteSporsmal/tidligereStilteSporsmal.component.ts(72,25): error TS2345: Argument of type 'SporsmalSvar' is not assignable to parameter of type 'number'.
+    src/app/TidligereStilteSporsmal/tidligereStilteSporsmal.component.ts(88,5): error TS2322: Type 'boolean' is not assignable to type 'any[]'.
+    
+ (fdf8f66a)
+2020-11-05T13:53:25.1307900+01:00  [INF] Now listening on: "https://localhost:5001" (d826f4b8)
+2020-11-05T13:53:25.1371390+01:00  [INF] Now listening on: "http://localhost:5000" (d826f4b8)
+2020-11-05T13:53:25.1375120+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-11-05T13:53:25.1413600+01:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-11-05T13:53:25.1425170+01:00  [INF] Content root path: "/Users/camillacarlsen/Documents/GitHub/KundeserviceModul/KundeserviceModul" (b5d60022)
+2020-11-05T13:53:43.3701460+01:00  [ERR] ERROR in app/TidligereStilteSporsmal/tidligereStilteSporsmal.component.ts:29:50 - error TS2345: Argument of type 'false' is not assignable to parameter of type 'SporsmalSvar[]'.
+
+29   public buttons = Array(this.alleSporsmal).fill(false);
+                                                    ~~~~~
+app/TidligereStilteSporsmal/tidligereStilteSporsmal.component.ts:71:61 - error TS2304: Cannot find name 'svarId'.
+
+71     let vurdering = this.alleSporsmal.find(f => f.svarId == svarId);
+                                                               ~~~~~~
+app/TidligereStilteSporsmal/tidligereStilteSporsmal.component.ts:72:25 - error TS2345: Argument of type 'SporsmalSvar' is not assignable to parameter of type 'number'.
+
+72     this.lagreVurdering(vurdering);
+                           ~~~~~~~~~
+app/TidligereStilteSporsmal/tidligereStilteSporsmal.component.ts:88:5 - error TS2322: Type 'boolean' is not assignable to type 'SporsmalSvar[][]'.
+
+88     this.buttons = !this.buttons;
+       ~~~~~~~~~~~~
+
+ (7c366f4d)
+2020-11-05T13:54:14.4205430+01:00  [INF] Now listening on: "https://localhost:5001" (d826f4b8)
+2020-11-05T13:54:14.4364400+01:00  [INF] Now listening on: "http://localhost:5000" (d826f4b8)
+2020-11-05T13:54:14.4380240+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-11-05T13:54:14.4381240+01:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-11-05T13:54:14.4382340+01:00  [INF] Content root path: "/Users/camillacarlsen/Documents/GitHub/KundeserviceModul/KundeserviceModul" (b5d60022)
+2020-11-05T13:54:30.7194710+01:00  [ERR] ERROR in app/TidligereStilteSporsmal/tidligereStilteSporsmal.component.ts:29:50 - error TS2345: Argument of type 'false' is not assignable to parameter of type 'SporsmalSvar[]'.
+
+29   public buttons = Array(this.alleSporsmal).fill(false);
+                                                    ~~~~~
+app/TidligereStilteSporsmal/tidligereStilteSporsmal.component.ts:71:61 - error TS2304: Cannot find name 'svarId'.
+
+71     let vurdering = this.alleSporsmal.find(f => f.svarId == svarId);
+                                                               ~~~~~~
+app/TidligereStilteSporsmal/tidligereStilteSporsmal.component.ts:72:25 - error TS2345: Argument of type 'SporsmalSvar' is not assignable to parameter of type 'number'.
+
+72     this.lagreVurdering(vurdering);
+                           ~~~~~~~~~
+
+ (16235702)
+2020-11-05T13:55:21.1683360+01:00  [ERR]     ERROR in src/app/TidligereStilteSporsmal/tidligereStilteSporsmal.component.ts(71,61): error TS2304: Cannot find name 'svarId'.
+    src/app/TidligereStilteSporsmal/tidligereStilteSporsmal.component.ts(72,25): error TS2345: Argument of type 'SporsmalSvar' is not assignable to parameter of type 'number'.
+    
+ (c152daf8)
+2020-11-05T13:55:22.8007840+01:00  [ERR] Assertion failed: (0), function uv_close, file ../deps/uv/src/unix/core.c, line 178.
+ (a8297612)
+2020-11-05T13:59:58.9347290+01:00  [INF] Now listening on: "https://localhost:5001" (d826f4b8)
+2020-11-05T13:59:58.9411600+01:00  [INF] Now listening on: "http://localhost:5000" (d826f4b8)
+2020-11-05T13:59:58.9417690+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-11-05T13:59:58.9418350+01:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-11-05T13:59:58.9419480+01:00  [INF] Content root path: "/Users/camillacarlsen/Documents/GitHub/KundeserviceModul/KundeserviceModul" (b5d60022)
+2020-11-05T14:00:14.4030840+01:00  [ERR] ERROR in app/TidligereStilteSporsmal/tidligereStilteSporsmal.component.ts:71:61 - error TS2304: Cannot find name 'svarId'.
+
+71     let vurdering = this.alleSporsmal.find(f => f.svarId == svarId);
+                                                               ~~~~~~
+app/TidligereStilteSporsmal/tidligereStilteSporsmal.component.ts:72:25 - error TS2345: Argument of type 'SporsmalSvar' is not assignable to parameter of type 'number'.
+
+72     this.lagreVurdering(vurdering);
+                           ~~~~~~~~~
+
+ (59ada5cc)
+2020-11-05T14:01:11.3446070+01:00  [INF] Now listening on: "https://localhost:5001" (d826f4b8)
+2020-11-05T14:01:11.3537860+01:00  [INF] Now listening on: "http://localhost:5000" (d826f4b8)
+2020-11-05T14:01:11.3542950+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-11-05T14:01:11.3543660+01:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-11-05T14:01:11.3544020+01:00  [INF] Content root path: "/Users/camillacarlsen/Documents/GitHub/KundeserviceModul/KundeserviceModul" (b5d60022)
+2020-11-05T14:01:50.3041610+01:00  [ERR] ERROR in app/TidligereStilteSporsmal/tidligereStilteSporsmal.component.ts:71:61 - error TS2304: Cannot find name 'svarId'.
+
+71     let vurdering = this.alleSporsmal.find(f => f.svarId == svarId);
+                                                               ~~~~~~
+app/TidligereStilteSporsmal/tidligereStilteSporsmal.component.ts:72:25 - error TS2345: Argument of type 'SporsmalSvar' is not assignable to parameter of type 'number'.
+
+72     this.lagreVurdering(vurdering);
+                           ~~~~~~~~~
+
+ (59ada5cc)
+2020-11-05T14:04:53.7480260+01:00  [ERR]     ERROR in src/app/TidligereStilteSporsmal/tidligereStilteSporsmal.component.ts(71,61): error TS2304: Cannot find name 'svarId'.
+    src/app/TidligereStilteSporsmal/tidligereStilteSporsmal.component.ts(72,25): error TS2345: Argument of type 'SporsmalSvar' is not assignable to parameter of type 'number'.
+    
+ (c152daf8)
+2020-11-05T14:05:10.4922020+01:00  [ERR]     ERROR in src/app/TidligereStilteSporsmal/tidligereStilteSporsmal.component.ts(71,61): error TS2304: Cannot find name 'svarId'.
+    
+ (66e91769)
+2020-11-05T14:06:47.4055570+01:00  [ERR]     ERROR in src/app/TidligereStilteSporsmal/tidligereStilteSporsmal.component.ts(71,61): error TS2304: Cannot find name 'svarId'.
+    
+ (66e91769)
+2020-11-05T14:07:02.8403010+01:00  [ERR]     ERROR in src/app/TidligereStilteSporsmal/tidligereStilteSporsmal.component.ts(71,61): error TS2304: Cannot find name 'svarId'.
+    
+ (66e91769)
+2020-11-05T14:07:55.7409140+01:00  [ERR]     ERROR in src/app/TidligereStilteSporsmal/tidligereStilteSporsmal.component.ts(71,61): error TS2304: Cannot find name 'svarId'.
+    
+ (66e91769)
+2020-11-05T14:09:17.0295330+01:00  [ERR]     ERROR in src/app/TidligereStilteSporsmal/tidligereStilteSporsmal.component.ts(71,61): error TS2304: Cannot find name 'svarId'.
+    
+ (66e91769)
+2020-11-05T14:10:04.0841000+01:00  [ERR]     ERROR in src/app/TidligereStilteSporsmal/tidligereStilteSporsmal.component.ts(69,17): error TS2304: Cannot find name 'indeks'.
+    src/app/TidligereStilteSporsmal/tidligereStilteSporsmal.component.ts(69,40): error TS2304: Cannot find name 'indeks'.
+    src/app/TidligereStilteSporsmal/tidligereStilteSporsmal.component.ts(71,61): error TS2304: Cannot find name 'svarId'.
+    
+ (f596022a)
+2020-11-05T14:11:03.3624540+01:00  [ERR]     ERROR in src/app/TidligereStilteSporsmal/tidligereStilteSporsmal.component.ts(71,61): error TS2304: Cannot find name 'svarId'.
+    
+ (66e91769)

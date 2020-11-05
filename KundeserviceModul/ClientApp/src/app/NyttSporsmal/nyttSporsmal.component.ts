@@ -32,6 +32,7 @@ export class NyttSporsmalComponent {
     console.log(this.Skjema.value.dittSporsmal);
     console.log(this.Skjema.value.dinEpost);
     this.lagre();
+    document.getElementById('sendt').innerHTML = "Spørsmålet ditt er nå sendt! Vi vil kontakte deg så fort vi kan. ";
   }
 
   lagre() {
@@ -50,7 +51,7 @@ export class NyttSporsmalComponent {
 
     this._http.post("api/KundeService/lagre", etSporsmal)
     .subscribe(retur => {
-      this.router.navigate(['/']);
+      this.router.navigate(['/nyttSporsmal']);
     },
       error => console.log("feilen er"+ error)
     );
