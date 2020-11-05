@@ -46,8 +46,8 @@ namespace KundeserviceModul.Controllers
 
         }
 
-        //[HttpPost]
-        /*public async Task<ActionResult> LagreVurdering(SporsmalSvar innID, int innVurderingLiker)
+        [HttpPost]
+        public async Task<ActionResult> LagreVurdering(SporsmalSvar innID, int innVurderingLiker)
         {
             if (ModelState.IsValid)
             {
@@ -63,7 +63,7 @@ namespace KundeserviceModul.Controllers
             _log.LogInformation("Feil i inputvalidering");
             return BadRequest("Feil i inputvalidering på server");
 
-        }*/
+        }
 
     }
 }

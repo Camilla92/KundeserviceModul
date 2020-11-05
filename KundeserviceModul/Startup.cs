@@ -1,4 +1,4 @@
-using Castle.Core.Logging;
+//using Castle.Core.Logging;
 using KundeserviceModul.DAL;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -9,8 +9,9 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+//using Microsoft.Extensions.Logging;
 using System.Diagnostics.CodeAnalysis;
-
+//using ILoggerFactory = Microsoft.Extensions.Logging.ILoggerFactory;
 
 namespace KundeserviceModul
 {
@@ -38,12 +39,14 @@ namespace KundeserviceModul
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env, ILoggerFactory loggerFactory)
         {
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
-                //LoggerFactory.AddFile("Logg/feilLogg.txt");
+                
+                loggerFactory.AddFile("Logg/feilLogg.txt");
+
                 DBInit.Initialize(app);
             }
             else
