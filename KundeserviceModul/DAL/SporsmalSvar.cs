@@ -10,7 +10,7 @@ namespace KundeserviceModul.DAL
         public string Sporsmalet { get; set; }
         public string Svaret { get; set; }
         public int Liker { get; set; }
-        public int Misliker { get; set; }
+        
         
         
 

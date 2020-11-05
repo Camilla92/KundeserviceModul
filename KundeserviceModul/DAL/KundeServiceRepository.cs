@@ -46,15 +46,15 @@ namespace KundeserviceModul.DAL
 
         }
 
-        public async Task<bool> LagreVurdering(SporsmalSvar innID, int innVurderLiker, int innVurderMisliker)
+        public async Task<bool> LagreVurdering(SporsmalSvar innID, int innVurderLiker)
         {
 
 
             var nyVurderingsRad = new SporsmalSvar();
 
-            
-            nyVurderingsRad.Liker = innVurderLiker++;
-            nyVurderingsRad.Misliker = innVurderMisliker++;
+
+            nyVurderingsRad.Liker = innVurderLiker;
+           
             _db.SporsmalSvar.Add(nyVurderingsRad);
             await _db.SaveChangesAsync();
             return true;

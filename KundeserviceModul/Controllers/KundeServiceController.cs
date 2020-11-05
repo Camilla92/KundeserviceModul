@@ -46,13 +46,13 @@ namespace KundeserviceModul.Controllers
 
         }
 
-        [HttpPost]
-        public async Task<ActionResult> LagreVurdering(SporsmalSvar innID, int innVurderingLiker, int innVurderingMisliker)
+        //[HttpPost]
+        /*public async Task<ActionResult> LagreVurdering(SporsmalSvar innID, int innVurderingLiker)
         {
             if (ModelState.IsValid)
             {
 
-                bool returOk = await _db.LagreVurdering(innID, innVurderingLiker, innVurderingMisliker);
+                bool returOk = await _db.LagreVurdering(innID, innVurderingLiker);
                 if (!returOk)
                 {
                     _log.LogInformation("Vurderingen ble ikke registrert");
@@ -63,7 +63,7 @@ namespace KundeserviceModul.Controllers
             _log.LogInformation("Feil i inputvalidering");
             return BadRequest("Feil i inputvalidering på server");
 
-        }
+        }*/
 
     }
 }

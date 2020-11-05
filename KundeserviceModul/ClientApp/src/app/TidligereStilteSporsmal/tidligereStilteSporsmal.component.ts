@@ -65,12 +65,7 @@ export class TidligereStilteSporsmalComponent {
     
   }
 
-  misliker2() {
-    this.click2 = !this.click2;
-    this.misliker++;
-    this.lagreVurdering();
 
-  }
 
   lagreVurdering() {
 
@@ -78,7 +73,7 @@ export class TidligereStilteSporsmalComponent {
     //må ha med svarid til svaret som blir ratet
 
     enVurdering.liker = this.liker;
-    enVurdering.liker = this.misliker;
+    
 
     this._http.post("api/KundeService", enVurdering)
       .subscribe(retur => {
@@ -95,7 +90,7 @@ export class SporsmalSvar {
   sporsmalet: String;
   svaret: String;
   liker: number;
-  misliker: number;
+ 
 
 }
 

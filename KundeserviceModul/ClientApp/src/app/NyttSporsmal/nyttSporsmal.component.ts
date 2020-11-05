@@ -19,7 +19,7 @@ export class NyttSporsmalComponent {
     this.Skjema = fb.group({
 
       dinEpost: ["", Validators.pattern("[\\w-\\.]+@([\\w-]+\\.)+[\\w-]{2,4}")],
-      dittSporsmal: ["Spørsmålet må være mellom 10 og 50 tegn.", Validators.pattern("[a-zA-Z .,\?\-]{10,50}")]
+      dittSporsmal: ["", Validators.pattern("[a-zA-ZøæåØÆÅ\\-.,/? ]{10,100}")]
 
 
     });
@@ -45,7 +45,8 @@ export class NyttSporsmalComponent {
     etSporsmal.sporsmalet = this.Skjema.value.dittSporsmal;
     etSporsmal.epost = this.Skjema.value.dinEpost;
 
-   
+
+    //api/{KundeService}/{action}{Lagre}"
 
     this._http.post("api/KundeService", etSporsmal)
     .subscribe(retur => {

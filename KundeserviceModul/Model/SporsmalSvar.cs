@@ -13,7 +13,7 @@ namespace KundeserviceModul.Model
 
           //for rating  
           public int liker { get; set; }
-          public int misliker { get; set; }
+         
 
 
     }
