@@ -48,7 +48,7 @@ export class NyttSporsmalComponent {
 
     //api/{KundeService}/{action}{Lagre}"
 
-    this._http.post("api/KundeService", etSporsmal)
+    this._http.post("api/KundeService/lagre", etSporsmal)
     .subscribe(retur => {
       this.router.navigate(['/']);
     },
@@ -61,7 +61,7 @@ export class NyttSporsmalComponent {
 export class InnsendteSporsmal {
 
   spmlID: number;
-  sporsmalet: string;
-  epost: string;
+  sporsmalet: String;
+  epost: String;
 
 }

@@ -27,7 +27,7 @@ namespace KundeserviceModul.Controllers
             return Ok(alleSvarene);
         }
 
-        [HttpPost]
+        [HttpPost("lagre")]
         public async Task<ActionResult> Lagre(InnsendteSporsmal innSporsmal)
         {
             if (ModelState.IsValid)
@@ -46,7 +46,7 @@ namespace KundeserviceModul.Controllers
 
         }
 
-        [HttpPost]
+        [HttpPost("lagreVurdering")]
         public async Task<ActionResult> LagreVurdering(SporsmalSvar innID, int innVurderingLiker)
         {
             if (ModelState.IsValid)

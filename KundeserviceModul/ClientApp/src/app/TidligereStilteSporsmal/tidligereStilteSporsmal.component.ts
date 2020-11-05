@@ -2,11 +2,16 @@ import { Component } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { FormGroup, FormControl, Validators, FormBuilder } from '@angular/forms';
 import { Router } from '@angular/router';
+import { NgModule } from '@angular/core';
+//import { Component } from '@angular/core';
+
+
 
 
 
 @Component({
   //selector: 'app-root', denne gjør ikke noe da det er routing som gjelder
+  
   templateUrl: './tidligereStilteSporsmal.component.html'
 })
 export class TidligereStilteSporsmalComponent {
