@@ -1,0 +1,368 @@
+2020-11-06T08:38:13.3339920+01:00  [ERR]     ERROR in src/app/TidligereStilteSporsmal/tidligereStilteSporsmal.component.ts(72,25): error TS2304: Cannot find name 'svarId'.
+    
+ (a07bdefc)
+2020-11-06T08:38:46.1606800+01:00  [ERR]     ERROR in src/app/TidligereStilteSporsmal/tidligereStilteSporsmal.component.ts(72,25): error TS2304: Cannot find name 'svarId'.
+    
+ (a07bdefc)
+2020-11-06T08:43:10.8928460+01:00  [ERR]     ERROR in src/app/TidligereStilteSporsmal/tidligereStilteSporsmal.component.ts(72,25): error TS2304: Cannot find name 'svarId'.
+    ../../node_modules/@ng-bootstrap/ng-bootstrap/accordion/accordion.d.ts(1,75): error TS2307: Cannot find module '@angular/core'.
+    ../../node_modules/@ng-bootstrap/ng-bootstrap/alert/alert.d.ts(1,87): error TS2307: Cannot find module '@angular/core'.
+    ../../node_modules/@ng-bootstrap/ng-bootstrap/buttons/checkbox.d.ts(1,35): error TS2307: Cannot find module '@angular/core'.
+    ../../node_modules/@ng-bootstrap/ng-bootstrap/buttons/checkbox.d.ts(2,38): error TS2307: Cannot find module '@angular/forms'.
+    ../../node_modules/@ng-bootstrap/ng-bootstrap/buttons/radio.d.ts(1,69): error TS2307: Cannot find module '@angular/core'.
+    ../../node_modules/@ng-bootstrap/ng-bootstrap/buttons/radio.d.ts(2,38): error TS2307: Cannot find module '@angular/forms'.
+    ../../node_modules/@ng-bootstrap/ng-bootstrap/carousel/carousel.d.ts(1,131): error TS2307: Cannot find module '@angular/core'.
+    ../../node_modules/@ng-bootstrap/ng-bootstrap/datepicker/datepicker-config.d.ts(1,29): error TS2307: Cannot find module '@angular/core'.
+    ../../node_modules/@ng-bootstrap/ng-bootstrap/datepicker/datepicker-input.d.ts(1,174): error TS2307: Cannot find module '@angular/core'.
+    ../../node_modules/@ng-bootstrap/ng-bootstrap/datepicker/datepicker-input.d.ts(2,66): error TS2307: Cannot find module '@angular/forms'.
+    ../../node_modules/@ng-bootstrap/ng-bootstrap/datepicker/datepicker-navigation-select.d.ts(1,71): error TS2307: Cannot find module '@angular/core'.
+    ../../node_modules/@ng-bootstrap/ng-bootstrap/datepicker/datepicker-navigation.d.ts(1,30): error TS2307: Cannot find module '@angular/core'.
+    ../../node_modules/@ng-bootstrap/ng-bootstrap/datepicker/datepicker-service.d.ts(5,28): error TS2307: Cannot find module 'rxjs'.
+    ../../node_modules/@ng-bootstrap/ng-bootstrap/datepicker/datepicker.d.ts(1,127): error TS2307: Cannot find module '@angular/core'.
+ (6fa038b7)
+2020-11-06T08:44:03.8199810+01:00  [ERR]     ../../node_modules/@ng-bootstrap/ng-bootstrap/datepicker/datepicker.d.ts(2,38): error TS2307: Cannot find module '@angular/forms'.
+    ../../node_modules/@ng-bootstrap/ng-bootstrap/datepicker/datepicker.d.ts(13,21): error TS2307: Cannot find module '@angular/core'.
+    ../../node_modules/@ng-bootstrap/ng-bootstrap/datepicker/datepicker.d.ts(14,25): error TS2307: Cannot find module '@angular/core'.
+    ../../node_modules/@ng-bootstrap/ng-bootstrap/dropdown/dropdown.d.ts(1,135): error TS2307: Cannot find module '@angular/core'.
+    ../../node_modules/@ng-bootstrap/ng-bootstrap/modal/modal-config.d.ts(1,26): error TS2307: Cannot find module '@angular/core'.
+    ../../node_modules/@ng-bootstrap/ng-bootstrap/modal/modal-ref.d.ts(1,30): error TS2307: Cannot find module '@angular/core'.
+    ../../node_modules/@ng-bootstrap/ng-bootstrap/modal/modal-stack.d.ts(1,94): error TS2307: Cannot find module '@angular/core'.
+    ../../node_modules/@ng-bootstrap/ng-bootstrap/modal/modal-window.d.ts(1,84): error TS2307: Cannot find module '@angular/core'.
+    ../../node_modules/@ng-bootstrap/ng-bootstrap/modal/modal.d.ts(1,52): error TS2307: Cannot find module '@angular/core'.
+    ../../node_modules/@ng-bootstrap/ng-bootstrap/nav/nav.d.ts(1,132): error TS2307: Cannot find module '@angular/core'.
+    ../../node_modules/@ng-bootstrap/ng-bootstrap/pagination/pagination.d.ts(1,69): error TS2307: Cannot find module '@angular/core'.
+    ../../node_modules/@ng-bootstrap/ng-bootstrap/popover/popover.d.ts(1,208): error TS2307: Cannot find module '@angular/core'.
+    ../../node_modules/@ng-bootstrap/ng-bootstrap/rating/rating.d.ts(1,96): error TS2307: Cannot find module '@angular/core'.
+    ../../node_modules/@ng-bootstrap/ng-bootstrap/rating/rating.d.ts(3,38): error TS2307: Cannot find module '@angular/forms'.
+    ../../node_modules/@ng-bootstrap/ng-bootstrap/tabset/tabset.d.ts(1,75): error TS2307: Cannot find module '@angular/core'.
+    ../../node_modules/@ng-bootstrap/ng-bootstrap/timepicker/timepicker.d.ts(1,61): error TS2307: Cannot find module '@angular/core'.
+    ../../node_modules/@ng-bootstrap/ng-bootstrap/timepicker/timepicker.d.ts(2,38): error TS2307: Cannot find module '@angular/forms'.
+    ../../node_modules/@ng-bootstrap/ng-bootstrap/toast/toast.d.ts(1,87): error TS2307: Cannot find module '@angular/core'.
+    ../../node_modules/@ng-bootstrap/ng-bootstrap/tooltip/tooltip.d.ts(1,208): error TS2307: Cannot find module '@angular/core'.
+    ../../node_modules/@ng-bootstrap/ng-bootstrap/typeahead/highlight.d.ts(1,42): error TS2307: Cannot find module '@angular/core'.
+    ../../node_modules/@ng-bootstrap/ng-bootstrap/typeahead/typeahead-window.d.ts(1,51): error TS2307: Cannot find module '@angular/core'.
+    ../../node_modules/@ng-bootstrap/ng-bootstrap/typeahead/typeahead.d.ts(1,182): error TS2307: Cannot find module '@angular/core'.
+    ../../node_modules/@ng-bootstrap/ng-bootstrap/typeahead/typeahead.d.ts(2,38): error TS2307: Cannot find module '@angular/forms'.
+    ../../node_modules/@ng-bootstrap/ng-bootstrap/typeahead/typeahead.d.ts(3,28): error TS2307: Cannot find module 'rxjs'.
+    ../../node_modules/@ng-bootstrap/ng-bootstrap/util/accessibility/live.d.ts(1,43): error TS2307: Cannot find module '@angular/core'.
+    ../../node_modules/@ng-bootstrap/ng-bootstrap/util/popup.d.ts(1,133): error TS2307: Cannot find module '@angular/core'.
+    
+    
+ (9aec472c)
+2020-11-06T08:44:03.8212590+01:00  [ERR]     ERROR in src/app/TidligereStilteSporsmal/tidligereStilteSporsmal.component.ts(72,25): error TS2304: Cannot find name 'svarId'.
+    ../../node_modules/@ng-bootstrap/ng-bootstrap/accordion/accordion.d.ts(1,75): error TS2307: Cannot find module '@angular/core'.
+    ../../node_modules/@ng-bootstrap/ng-bootstrap/alert/alert.d.ts(1,87): error TS2307: Cannot find module '@angular/core'.
+    ../../node_modules/@ng-bootstrap/ng-bootstrap/buttons/checkbox.d.ts(1,35): error TS2307: Cannot find module '@angular/core'.
+    ../../node_modules/@ng-bootstrap/ng-bootstrap/buttons/checkbox.d.ts(2,38): error TS2307: Cannot find module '@angular/forms'.
+    ../../node_modules/@ng-bootstrap/ng-bootstrap/buttons/radio.d.ts(1,69): error TS2307: Cannot find module '@angular/core'.
+    ../../node_modules/@ng-bootstrap/ng-bootstrap/buttons/radio.d.ts(2,38): error TS2307: Cannot find module '@angular/forms'.
+    ../../node_modules/@ng-bootstrap/ng-bootstrap/carousel/carousel.d.ts(1,131): error TS2307: Cannot find module '@angular/core'.
+    ../../node_modules/@ng-bootstrap/ng-bootstrap/datepicker/datepicker-config.d.ts(1,29): error TS2307: Cannot find module '@angular/core'.
+    ../../node_modules/@ng-bootstrap/ng-bootstrap/datepicker/datepicker-input.d.ts(1,174): error TS2307: Cannot find module '@angular/core'.
+    ../../node_modules/@ng-bootstrap/ng-bootstrap/datepicker/datepicker-input.d.ts(2,66): error TS2307: Cannot find module '@angular/forms'.
+    ../../node_modules/@ng-bootstrap/ng-bootstrap/datepicker/datepicker-navigation-select.d.ts(1,71): error TS2307: Cannot find module '@angular/core'.
+    ../../node_modules/@ng-bootstrap/ng-bootstrap/datepicker/datepicker-navigation.d.ts(1,30): error TS2307: Cannot find module '@angular/core'.
+    ../../node_modules/@ng-bootstrap/ng-bootstrap/datepicker/datepicker-service.d.ts(5,28): error TS2307: Cannot find module 'rxjs'.
+    ../../node_modules/@ng-bootstrap/ng-bootstrap/datepicker/datepicker.d.ts(1,127): error TS2307: Cannot find module '@angular/core'.
+ (6fa038b7)
+2020-11-06T08:56:03.9537940+01:00  [ERR]     ../../node_modules/@ng-bootstrap/ng-bootstrap/datepicker/datepicker.d.ts(2,38): error TS2307: Cannot find module '@angular/forms'.
+    ../../node_modules/@ng-bootstrap/ng-bootstrap/datepicker/datepicker.d.ts(13,21): error TS2307: Cannot find module '@angular/core'.
+    ../../node_modules/@ng-bootstrap/ng-bootstrap/datepicker/datepicker.d.ts(14,25): error TS2307: Cannot find module '@angular/core'.
+    ../../node_modules/@ng-bootstrap/ng-bootstrap/dropdown/dropdown.d.ts(1,135): error TS2307: Cannot find module '@angular/core'.
+    ../../node_modules/@ng-bootstrap/ng-bootstrap/modal/modal-config.d.ts(1,26): error TS2307: Cannot find module '@angular/core'.
+    ../../node_modules/@ng-bootstrap/ng-bootstrap/modal/modal-ref.d.ts(1,30): error TS2307: Cannot find module '@angular/core'.
+    ../../node_modules/@ng-bootstrap/ng-bootstrap/modal/modal-stack.d.ts(1,94): error TS2307: Cannot find module '@angular/core'.
+    ../../node_modules/@ng-bootstrap/ng-bootstrap/modal/modal-window.d.ts(1,84): error TS2307: Cannot find module '@angular/core'.
+    ../../node_modules/@ng-bootstrap/ng-bootstrap/modal/modal.d.ts(1,52): error TS2307: Cannot find module '@angular/core'.
+    ../../node_modules/@ng-bootstrap/ng-bootstrap/nav/nav.d.ts(1,132): error TS2307: Cannot find module '@angular/core'.
+    ../../node_modules/@ng-bootstrap/ng-bootstrap/pagination/pagination.d.ts(1,69): error TS2307: Cannot find module '@angular/core'.
+    ../../node_modules/@ng-bootstrap/ng-bootstrap/popover/popover.d.ts(1,208): error TS2307: Cannot find module '@angular/core'.
+    ../../node_modules/@ng-bootstrap/ng-bootstrap/rating/rating.d.ts(1,96): error TS2307: Cannot find module '@angular/core'.
+    ../../node_modules/@ng-bootstrap/ng-bootstrap/rating/rating.d.ts(3,38): error TS2307: Cannot find module '@angular/forms'.
+    ../../node_modules/@ng-bootstrap/ng-bootstrap/tabset/tabset.d.ts(1,75): error TS2307: Cannot find module '@angular/core'.
+    ../../node_modules/@ng-bootstrap/ng-bootstrap/timepicker/timepicker.d.ts(1,61): error TS2307: Cannot find module '@angular/core'.
+    ../../node_modules/@ng-bootstrap/ng-bootstrap/timepicker/timepicker.d.ts(2,38): error TS2307: Cannot find module '@angular/forms'.
+    ../../node_modules/@ng-bootstrap/ng-bootstrap/toast/toast.d.ts(1,87): error TS2307: Cannot find module '@angular/core'.
+    ../../node_modules/@ng-bootstrap/ng-bootstrap/tooltip/tooltip.d.ts(1,208): error TS2307: Cannot find module '@angular/core'.
+    ../../node_modules/@ng-bootstrap/ng-bootstrap/typeahead/highlight.d.ts(1,42): error TS2307: Cannot find module '@angular/core'.
+    ../../node_modules/@ng-bootstrap/ng-bootstrap/typeahead/typeahead-window.d.ts(1,51): error TS2307: Cannot find module '@angular/core'.
+    ../../node_modules/@ng-bootstrap/ng-bootstrap/typeahead/typeahead.d.ts(1,182): error TS2307: Cannot find module '@angular/core'.
+    ../../node_modules/@ng-bootstrap/ng-bootstrap/typeahead/typeahead.d.ts(2,38): error TS2307: Cannot find module '@angular/forms'.
+    ../../node_modules/@ng-bootstrap/ng-bootstrap/typeahead/typeahead.d.ts(3,28): error TS2307: Cannot find module 'rxjs'.
+    ../../node_modules/@ng-bootstrap/ng-bootstrap/util/accessibility/live.d.ts(1,43): error TS2307: Cannot find module '@angular/core'.
+    ../../node_modules/@ng-bootstrap/ng-bootstrap/util/popup.d.ts(1,133): error TS2307: Cannot find module '@angular/core'.
+    
+
+ (f5475518)
+2020-11-06T08:56:03.9577320+01:00  [ERR] ERROR in app/TidligereStilteSporsmal/tidligereStilteSporsmal.component.ts:109:1 - error TS1068: Unexpected token. A constructor, method, accessor, or property was expected.
+
+109 export class SporsmalSvar {
+    ~~~~~~
+
+ (ab09cce8)
+2020-11-06T08:56:07.6800940+01:00  [ERR] ERROR in app/TidligereStilteSporsmal/tidligereStilteSporsmal.component.ts:109:1 - error TS1068: Unexpected token. A constructor, method, accessor, or property was expected.
+
+109 export class SporsmalSvar {
+    ~~~~~~
+
+ (ab09cce8)
+2020-11-06T08:56:13.7416990+01:00  [ERR]     ERROR in src/app/TidligereStilteSporsmal/tidligereStilteSporsmal.component.ts(9,10): error TS2305: Module '"../../../node_modules/@angular-devkit/build-angular/src"' has no exported member 'NgbPanel'.
+    src/app/TidligereStilteSporsmal/tidligereStilteSporsmal.component.ts(74,25): error TS2304: Cannot find name 'svarId'.
+    
+ (d6969271)
+2020-11-06T08:56:24.0895950+01:00  [ERR]     ERROR in src/app/TidligereStilteSporsmal/tidligereStilteSporsmal.component.ts(9,10): error TS2305: Module '"../../../node_modules/@angular-devkit/build-angular/src"' has no exported member 'NgbPanel'.
+    
+ (376f3709)
+2020-11-06T08:56:30.8054700+01:00  [ERR]     ERROR in src/app/TidligereStilteSporsmal/tidligereStilteSporsmal.component.ts(9,10): error TS2305: Module '"../../../node_modules/@angular-devkit/build-angular/src"' has no exported member 'NgbPanel'.
+    
+ (376f3709)
+2020-11-06T08:59:58.0634680+01:00  [ERR] Assertion failed: (0), function uv_close, file ../deps/uv/src/unix/core.c, line 178.
+ (a8297612)
+2020-11-06T08:59:58.3629770+01:00 0HM41I12I5FAG:0000000B [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.Net.Http.HttpRequestException: Failed to proxy the request to http://localhost:62333/, because the request to the proxy target failed. Check that the proxy target server is running and accepting requests to http://localhost:62333/.
+
+The underlying exception message was 'Connection refused'.Check the InnerException for more details.
+ ---> System.Net.Http.HttpRequestException: Connection refused
+ ---> System.Net.Sockets.SocketException (61): Connection refused
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean allowHttp2, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttpConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncUnbuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.PerformProxyRequest(HttpContext context, HttpClient httpClient, Task`1 baseUriTask, CancellationToken applicationStoppingToken, Boolean proxy404s)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.PerformProxyRequest(HttpContext context, HttpClient httpClient, Task`1 baseUriTask, CancellationToken applicationStoppingToken, Boolean proxy404s)
+   at Microsoft.AspNetCore.Builder.SpaProxyingExtensions.<>c__DisplayClass2_0.<<UseProxyToSpaDevelopmentServer>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-11-06T08:59:58.6844260+01:00 0HM41I12I5FAM:00000001 [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.AggregateException: One or more errors occurred. (The remote party closed the WebSocket connection without completing the close handshake.)
+ ---> System.Net.WebSockets.WebSocketException (1426261520): The remote party closed the WebSocket connection without completing the close handshake. ---> System.Net.WebSockets.WebSocketException (1426261520): The remote party closed the WebSocket connection without completing the close handshake.
+   at System.Net.WebSockets.ManagedWebSocket.ThrowIfEOFUnexpected(Boolean throwOnPrematureClosure)
+   at System.Net.WebSockets.ManagedWebSocket.EnsureBufferContainsAsync(Int32 minimumRequiredBytes, CancellationToken cancellationToken, Boolean throwOnPrematureClosure)
+   at System.Net.WebSockets.ManagedWebSocket.ReceiveAsyncPrivate[TWebSocketReceiveResultGetter,TWebSocketReceiveResult](Memory`1 payloadBuffer, CancellationToken cancellationToken, TWebSocketReceiveResultGetter resultGetter)
+   at System.Net.WebSockets.ManagedWebSocket.ReceiveAsyncPrivate[TWebSocketReceiveResultGetter,TWebSocketReceiveResult](Memory`1 payloadBuffer, CancellationToken cancellationToken, TWebSocketReceiveResultGetter resultGetter)
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.PumpWebSocket(WebSocket source, WebSocket destination, Int32 bufferSize, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.AcceptProxyWebSocketRequest(HttpContext context, Uri destinationUri, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.PerformProxyRequest(HttpContext context, HttpClient httpClient, Task`1 baseUriTask, CancellationToken applicationStoppingToken, Boolean proxy404s)
+   at Microsoft.AspNetCore.Builder.SpaProxyingExtensions.<>c__DisplayClass2_0.<<UseProxyToSpaDevelopmentServer>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-11-06T08:59:58.6860050+01:00 0HM41I12I5FAM:00000001 [WRN] The response has already started, the error page middleware will not be executed. (e1dd4c0d)
+2020-11-06T08:59:58.7348940+01:00 0HM41I12I5FAM:00000001 [ERR] Connection id ""0HM41I12I5FAM"", Request id ""0HM41I12I5FAM:00000001"": An unhandled exception was thrown by the application. (560e7d32)
+System.AggregateException: One or more errors occurred. (The remote party closed the WebSocket connection without completing the close handshake.)
+ ---> System.Net.WebSockets.WebSocketException (1426261520): The remote party closed the WebSocket connection without completing the close handshake. ---> System.Net.WebSockets.WebSocketException (1426261520): The remote party closed the WebSocket connection without completing the close handshake.
+   at System.Net.WebSockets.ManagedWebSocket.ThrowIfEOFUnexpected(Boolean throwOnPrematureClosure)
+   at System.Net.WebSockets.ManagedWebSocket.EnsureBufferContainsAsync(Int32 minimumRequiredBytes, CancellationToken cancellationToken, Boolean throwOnPrematureClosure)
+   at System.Net.WebSockets.ManagedWebSocket.ReceiveAsyncPrivate[TWebSocketReceiveResultGetter,TWebSocketReceiveResult](Memory`1 payloadBuffer, CancellationToken cancellationToken, TWebSocketReceiveResultGetter resultGetter)
+   at System.Net.WebSockets.ManagedWebSocket.ReceiveAsyncPrivate[TWebSocketReceiveResultGetter,TWebSocketReceiveResult](Memory`1 payloadBuffer, CancellationToken cancellationToken, TWebSocketReceiveResultGetter resultGetter)
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.PumpWebSocket(WebSocket source, WebSocket destination, Int32 bufferSize, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.AcceptProxyWebSocketRequest(HttpContext context, Uri destinationUri, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.PerformProxyRequest(HttpContext context, HttpClient httpClient, Task`1 baseUriTask, CancellationToken applicationStoppingToken, Boolean proxy404s)
+   at Microsoft.AspNetCore.Builder.SpaProxyingExtensions.<>c__DisplayClass2_0.<<UseProxyToSpaDevelopmentServer>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2020-11-06T09:00:49.4694080+01:00  [INF] Now listening on: "https://localhost:5001" (d826f4b8)
+2020-11-06T09:00:49.4860210+01:00  [INF] Now listening on: "http://localhost:5000" (d826f4b8)
+2020-11-06T09:00:49.4867400+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-11-06T09:00:49.4868060+01:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-11-06T09:00:49.4868720+01:00  [INF] Content root path: "/Users/camillacarlsen/Documents/GitHub/KundeserviceModul/KundeserviceModul" (b5d60022)
+2020-11-06T09:04:19.9470670+01:00  [INF] Now listening on: "https://localhost:5001" (d826f4b8)
+2020-11-06T09:04:19.9563090+01:00  [INF] Now listening on: "http://localhost:5000" (d826f4b8)
+2020-11-06T09:04:19.9567550+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-11-06T09:04:19.9568070+01:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-11-06T09:04:19.9568650+01:00  [INF] Content root path: "/Users/camillacarlsen/Documents/GitHub/KundeserviceModul/KundeserviceModul" (b5d60022)
+2020-11-06T09:10:52.7777450+01:00 0HM425A8C3T02:00000001 [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.Net.WebSockets.WebSocketException (0x80004005): The WebSocket is in an invalid state ('Aborted') for this operation. Valid states are: 'Open, CloseReceived'
+   at System.Net.WebSockets.WebSocketValidate.ThrowIfInvalidState(WebSocketState currentState, Boolean isDisposed, WebSocketState[] validStates)
+   at System.Net.WebSockets.ManagedWebSocket.CloseOutputAsyncCore(WebSocketCloseStatus closeStatus, String statusDescription, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.PumpWebSocket(WebSocket source, WebSocket destination, Int32 bufferSize, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.AcceptProxyWebSocketRequest(HttpContext context, Uri destinationUri, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.PerformProxyRequest(HttpContext context, HttpClient httpClient, Task`1 baseUriTask, CancellationToken applicationStoppingToken, Boolean proxy404s)
+   at Microsoft.AspNetCore.Builder.SpaProxyingExtensions.<>c__DisplayClass2_0.<<UseProxyToSpaDevelopmentServer>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-11-06T09:10:52.7959050+01:00 0HM425A8C3T02:00000001 [WRN] The response has already started, the error page middleware will not be executed. (e1dd4c0d)
+2020-11-06T09:10:52.8210180+01:00 0HM425A8C3T02:00000001 [ERR] Connection id ""0HM425A8C3T02"", Request id ""0HM425A8C3T02:00000001"": An unhandled exception was thrown by the application. (560e7d32)
+System.Net.WebSockets.WebSocketException (0x80004005): The WebSocket is in an invalid state ('Aborted') for this operation. Valid states are: 'Open, CloseReceived'
+   at System.Net.WebSockets.WebSocketValidate.ThrowIfInvalidState(WebSocketState currentState, Boolean isDisposed, WebSocketState[] validStates)
+   at System.Net.WebSockets.ManagedWebSocket.CloseOutputAsyncCore(WebSocketCloseStatus closeStatus, String statusDescription, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.PumpWebSocket(WebSocket source, WebSocket destination, Int32 bufferSize, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.AcceptProxyWebSocketRequest(HttpContext context, Uri destinationUri, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.PerformProxyRequest(HttpContext context, HttpClient httpClient, Task`1 baseUriTask, CancellationToken applicationStoppingToken, Boolean proxy404s)
+   at Microsoft.AspNetCore.Builder.SpaProxyingExtensions.<>c__DisplayClass2_0.<<UseProxyToSpaDevelopmentServer>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2020-11-06T09:45:46.1936950+01:00 0HM425A8C3T1B:00000001 [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.Net.WebSockets.WebSocketException (0x80004005): The WebSocket is in an invalid state ('Aborted') for this operation. Valid states are: 'Open, CloseReceived'
+   at System.Net.WebSockets.WebSocketValidate.ThrowIfInvalidState(WebSocketState currentState, Boolean isDisposed, WebSocketState[] validStates)
+   at System.Net.WebSockets.ManagedWebSocket.CloseOutputAsyncCore(WebSocketCloseStatus closeStatus, String statusDescription, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.PumpWebSocket(WebSocket source, WebSocket destination, Int32 bufferSize, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.AcceptProxyWebSocketRequest(HttpContext context, Uri destinationUri, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.PerformProxyRequest(HttpContext context, HttpClient httpClient, Task`1 baseUriTask, CancellationToken applicationStoppingToken, Boolean proxy404s)
+   at Microsoft.AspNetCore.Builder.SpaProxyingExtensions.<>c__DisplayClass2_0.<<UseProxyToSpaDevelopmentServer>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2020-11-06T09:45:46.2032690+01:00 0HM425A8C3T1B:00000001 [WRN] The response has already started, the error page middleware will not be executed. (e1dd4c0d)
+2020-11-06T09:45:46.2135260+01:00 0HM425A8C3T1B:00000001 [ERR] Connection id ""0HM425A8C3T1B"", Request id ""0HM425A8C3T1B:00000001"": An unhandled exception was thrown by the application. (560e7d32)
+System.Net.WebSockets.WebSocketException (0x80004005): The WebSocket is in an invalid state ('Aborted') for this operation. Valid states are: 'Open, CloseReceived'
+   at System.Net.WebSockets.WebSocketValidate.ThrowIfInvalidState(WebSocketState currentState, Boolean isDisposed, WebSocketState[] validStates)
+   at System.Net.WebSockets.ManagedWebSocket.CloseOutputAsyncCore(WebSocketCloseStatus closeStatus, String statusDescription, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.PumpWebSocket(WebSocket source, WebSocket destination, Int32 bufferSize, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.AcceptProxyWebSocketRequest(HttpContext context, Uri destinationUri, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.PerformProxyRequest(HttpContext context, HttpClient httpClient, Task`1 baseUriTask, CancellationToken applicationStoppingToken, Boolean proxy404s)
+   at Microsoft.AspNetCore.Builder.SpaProxyingExtensions.<>c__DisplayClass2_0.<<UseProxyToSpaDevelopmentServer>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2020-11-06T09:53:08.5885010+01:00  [ERR]     ERROR in src/app/TidligereStilteSporsmal/tidligereStilteSporsmal.component.ts(31,10): error TS2300: Duplicate identifier 'laster'.
+    src/app/TidligereStilteSporsmal/tidligereStilteSporsmal.component.ts(31,10): error TS2717: Subsequent property declarations must have the same type.  Property 'laster' must be of type 'string', but here has type 'boolean'.
+    src/app/TidligereStilteSporsmal/tidligereStilteSporsmal.component.ts(68,5): error TS2322: Type 'true' is not assignable to type 'string'.
+    
+ (fe2b0419)
+2020-11-06T09:53:53.9744890+01:00  [ERR]     ERROR in src/app/TidligereStilteSporsmal/tidligereStilteSporsmal.component.ts(31,10): error TS2300: Duplicate identifier 'laster'.
+    src/app/TidligereStilteSporsmal/tidligereStilteSporsmal.component.ts(31,10): error TS2717: Subsequent property declarations must have the same type.  Property 'laster' must be of type 'string', but here has type 'boolean'.
+    src/app/TidligereStilteSporsmal/tidligereStilteSporsmal.component.ts(68,5): error TS2322: Type 'true' is not assignable to type 'string'.
+    
+ (fe2b0419)
+2020-11-06T09:54:51.2945980+01:00  [ERR]     ERROR in src/app/TidligereStilteSporsmal/tidligereStilteSporsmal.component.ts(31,10): error TS2300: Duplicate identifier 'laster'.
+    src/app/TidligereStilteSporsmal/tidligereStilteSporsmal.component.ts(31,10): error TS2717: Subsequent property declarations must have the same type.  Property 'laster' must be of type 'string', but here has type 'boolean'.
+    src/app/TidligereStilteSporsmal/tidligereStilteSporsmal.component.ts(68,5): error TS2322: Type 'true' is not assignable to type 'string'.
+    
+ (fe2b0419)
+2020-11-06T09:55:06.5378490+01:00  [ERR]     ERROR in src/app/TidligereStilteSporsmal/tidligereStilteSporsmal.component.ts(31,10): error TS2300: Duplicate identifier 'laster'.
+    src/app/TidligereStilteSporsmal/tidligereStilteSporsmal.component.ts(31,10): error TS2717: Subsequent property declarations must have the same type.  Property 'laster' must be of type 'string', but here has type 'boolean'.
+    src/app/TidligereStilteSporsmal/tidligereStilteSporsmal.component.ts(68,5): error TS2322: Type 'true' is not assignable to type 'string'.
+    
+ (fe2b0419)
+2020-11-06T09:56:16.5202620+01:00  [ERR]     ERROR in src/app/TidligereStilteSporsmal/tidligereStilteSporsmal.component.ts(31,10): error TS2300: Duplicate identifier 'laster'.
+    src/app/TidligereStilteSporsmal/tidligereStilteSporsmal.component.ts(31,10): error TS2717: Subsequent property declarations must have the same type.  Property 'laster' must be of type 'string', but here has type 'boolean'.
+    src/app/TidligereStilteSporsmal/tidligereStilteSporsmal.component.ts(68,5): error TS2322: Type 'true' is not assignable to type 'string'.
+    
+ (fe2b0419)
+2020-11-06T09:56:54.2215780+01:00  [ERR]     ERROR in src/app/TidligereStilteSporsmal/tidligereStilteSporsmal.component.ts(31,10): error TS2300: Duplicate identifier 'laster'.
+    src/app/TidligereStilteSporsmal/tidligereStilteSporsmal.component.ts(31,10): error TS2717: Subsequent property declarations must have the same type.  Property 'laster' must be of type 'string', but here has type 'boolean'.
+    src/app/TidligereStilteSporsmal/tidligereStilteSporsmal.component.ts(68,5): error TS2322: Type 'true' is not assignable to type 'string'.
+    
+ (fe2b0419)
+2020-11-06T09:57:15.7250870+01:00  [ERR]     ERROR in src/app/TidligereStilteSporsmal/tidligereStilteSporsmal.component.ts(31,10): error TS2300: Duplicate identifier 'laster'.
+    src/app/TidligereStilteSporsmal/tidligereStilteSporsmal.component.ts(31,10): error TS2717: Subsequent property declarations must have the same type.  Property 'laster' must be of type 'string', but here has type 'boolean'.
+    src/app/TidligereStilteSporsmal/tidligereStilteSporsmal.component.ts(68,5): error TS2322: Type 'true' is not assignable to type 'string'.
+    
+ (fe2b0419)
+2020-11-06T09:59:33.5955170+01:00  [ERR]     ERROR in src/app/TidligereStilteSporsmal/tidligereStilteSporsmal.component.ts(31,10): error TS2300: Duplicate identifier 'laster'.
+    src/app/TidligereStilteSporsmal/tidligereStilteSporsmal.component.ts(31,10): error TS2717: Subsequent property declarations must have the same type.  Property 'laster' must be of type 'string', but here has type 'boolean'.
+    src/app/TidligereStilteSporsmal/tidligereStilteSporsmal.component.ts(68,5): error TS2322: Type 'true' is not assignable to type 'string'.
+    
+    
+ (772e8e07)
+2020-11-06T09:59:33.5958450+01:00  [ERR]     ERROR in src/app/TidligereStilteSporsmal/tidligereStilteSporsmal.component.ts(31,10): error TS2300: Duplicate identifier 'laster'.
+    src/app/TidligereStilteSporsmal/tidligereStilteSporsmal.component.ts(31,10): error TS2717: Subsequent property declarations must have the same type.  Property 'laster' must be of type 'string', but here has type 'boolean'.
+    src/app/TidligereStilteSporsmal/tidligereStilteSporsmal.component.ts(68,5): error TS2322: Type 'true' is not assignable to type 'string'.
+    
+ (fe2b0419)
+2020-11-06T09:59:54.4211980+01:00  [ERR]     ERROR in src/app/TidligereStilteSporsmal/tidligereStilteSporsmal.component.ts(31,10): error TS2300: Duplicate identifier 'laster'.
+    src/app/TidligereStilteSporsmal/tidligereStilteSporsmal.component.ts(31,10): error TS2717: Subsequent property declarations must have the same type.  Property 'laster' must be of type 'string', but here has type 'boolean'.
+    src/app/TidligereStilteSporsmal/tidligereStilteSporsmal.component.ts(68,5): error TS2322: Type 'true' is not assignable to type 'string'.
+    
+ (fe2b0419)
+2020-11-06T10:01:01.4416520+01:00  [ERR]     ERROR in src/app/TidligereStilteSporsmal/tidligereStilteSporsmal.component.ts(31,10): error TS2300: Duplicate identifier 'laster'.
+    src/app/TidligereStilteSporsmal/tidligereStilteSporsmal.component.ts(31,10): error TS2717: Subsequent property declarations must have the same type.  Property 'laster' must be of type 'string', but here has type 'boolean'.
+    src/app/TidligereStilteSporsmal/tidligereStilteSporsmal.component.ts(68,5): error TS2322: Type 'true' is not assignable to type 'string'.
+    
+ (fe2b0419)
+2020-11-06T10:01:19.6223040+01:00  [ERR] ERROR in app/TidligereStilteSporsmal/tidligereStilteSporsmal.component.ts:95:11 - error TS1005: ';' expected.
+
+95   document.getElementById('utskrift').innerHTML = "Vurderingen din er sendt. Med vurderingen: " + this.liker;
+             ~
+app/TidligereStilteSporsmal/tidligereStilteSporsmal.component.ts:95:27 - error TS1003: Identifier expected.
+
+95   document.getElementById('utskrift').innerHTML = "Vurderingen din er sendt. Med vurderingen: " + this.liker;
+                             ~~~~~~~~~~
+app/TidligereStilteSporsmal/tidligereStilteSporsmal.component.ts:95:38 - error TS1144: '{' or ';' expected.
+
+95   document.getElementById('utskrift').innerHTML = "Vurderingen din er sendt. Med vurderingen: " + this.liker;
+                                        ~
+
+ (c5ee526a)
+2020-11-06T10:01:41.1177340+01:00  [ERR]     ERROR in src/app/TidligereStilteSporsmal/tidligereStilteSporsmal.component.ts(31,10): error TS2300: Duplicate identifier 'laster'.
+    src/app/TidligereStilteSporsmal/tidligereStilteSporsmal.component.ts(31,10): error TS2717: Subsequent property declarations must have the same type.  Property 'laster' must be of type 'string', but here has type 'boolean'.
+    src/app/TidligereStilteSporsmal/tidligereStilteSporsmal.component.ts(68,5): error TS2322: Type 'true' is not assignable to type 'string'.
+    
+    
+ (772e8e07)
+2020-11-06T10:01:41.1180620+01:00  [ERR]     ERROR in src/app/TidligereStilteSporsmal/tidligereStilteSporsmal.component.ts(31,10): error TS2300: Duplicate identifier 'laster'.
+    src/app/TidligereStilteSporsmal/tidligereStilteSporsmal.component.ts(31,10): error TS2717: Subsequent property declarations must have the same type.  Property 'laster' must be of type 'string', but here has type 'boolean'.
+    src/app/TidligereStilteSporsmal/tidligereStilteSporsmal.component.ts(68,5): error TS2322: Type 'true' is not assignable to type 'string'.
+    
+ (fe2b0419)
+2020-11-06T10:02:52.9283590+01:00  [ERR]     ERROR in src/app/TidligereStilteSporsmal/tidligereStilteSporsmal.component.ts(31,10): error TS2300: Duplicate identifier 'laster'.
+    src/app/TidligereStilteSporsmal/tidligereStilteSporsmal.component.ts(31,10): error TS2717: Subsequent property declarations must have the same type.  Property 'laster' must be of type 'string', but here has type 'boolean'.
+    src/app/TidligereStilteSporsmal/tidligereStilteSporsmal.component.ts(68,5): error TS2322: Type 'true' is not assignable to type 'string'.
+    
+ (fe2b0419)
+2020-11-06T10:03:04.9857510+01:00  [ERR]     ERROR in src/app/TidligereStilteSporsmal/tidligereStilteSporsmal.component.ts(41,5): error TS2322: Type '"Vennligst vent"' is not assignable to type 'boolean'.
+    src/app/TidligereStilteSporsmal/tidligereStilteSporsmal.component.ts(49,9): error TS2322: Type '""' is not assignable to type 'boolean'.
+    
+ (763c0572)
+2020-11-06T10:04:58.9293020+01:00  [ERR]     ERROR in src/app/TidligereStilteSporsmal/tidligereStilteSporsmal.component.ts(41,5): error TS2322: Type '"Vennligst vent"' is not assignable to type 'boolean'.
+    src/app/TidligereStilteSporsmal/tidligereStilteSporsmal.component.ts(49,9): error TS2322: Type '""' is not assignable to type 'boolean'.
+    
+    
+ (a4e8b98f)
+2020-11-06T10:04:58.9297880+01:00  [ERR]     ERROR in src/app/TidligereStilteSporsmal/tidligereStilteSporsmal.component.ts(41,5): error TS2322: Type '"Vennligst vent"' is not assignable to type 'boolean'.
+    src/app/TidligereStilteSporsmal/tidligereStilteSporsmal.component.ts(49,9): error TS2322: Type '""' is not assignable to type 'boolean'.
+    
+ (763c0572)
+2020-11-06T10:06:42.0668030+01:00  [ERR]     ERROR in src/app/TidligereStilteSporsmal/tidligereStilteSporsmal.component.ts(49,9): error TS2322: Type '""' is not assignable to type 'boolean'.
+    
+ (71eea8fc)
+2020-11-06T10:06:57.6474020+01:00  [ERR]     ERROR in src/app/TidligereStilteSporsmal/tidligereStilteSporsmal.component.ts(49,9): error TS2322: Type '""' is not assignable to type 'boolean'.
+    
+ (71eea8fc)
+2020-11-06T10:15:37.0926670+01:00  [ERR]     ERROR in src/app/TidligereStilteSporsmal/tidligereStilteSporsmal.component.ts(81,9): error TS2663: Cannot find name 'liker'. Did you mean the instance member 'this.liker'?
+    
+ (02c89fb7)
+2020-11-06T10:16:08.7644260+01:00  [ERR]     ERROR in src/app/TidligereStilteSporsmal/tidligereStilteSporsmal.component.ts(81,9): error TS2663: Cannot find name 'liker'. Did you mean the instance member 'this.liker'?
+    
+ (02c89fb7)
+2020-11-06T10:37:57.8987070+01:00  [INF] Now listening on: "https://localhost:5001" (d826f4b8)
+2020-11-06T10:37:57.9048220+01:00  [INF] Now listening on: "http://localhost:5000" (d826f4b8)
+2020-11-06T10:37:57.9053090+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-11-06T10:37:57.9053660+01:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-11-06T10:37:57.9054300+01:00  [INF] Content root path: "/Users/camillacarlsen/Documents/GitHub/KundeserviceModul/KundeserviceModul" (b5d60022)
+2020-11-06T11:24:37.9746320+01:00  [INF] Now listening on: "https://localhost:5001" (d826f4b8)
+2020-11-06T11:24:38.0109630+01:00  [INF] Now listening on: "http://localhost:5000" (d826f4b8)
+2020-11-06T11:24:38.0114700+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-11-06T11:24:38.0115340+01:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-11-06T11:24:38.0116120+01:00  [INF] Content root path: "/Users/camillacarlsen/Documents/GitHub/KundeserviceModul/KundeserviceModul" (b5d60022)
+2020-11-06T14:32:38.4091160+01:00  [INF] Now listening on: "https://localhost:5001" (d826f4b8)
+2020-11-06T14:32:38.4287670+01:00  [INF] Now listening on: "http://localhost:5000" (d826f4b8)
+2020-11-06T14:32:38.4292270+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-11-06T14:32:38.4293130+01:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-11-06T14:32:38.4293760+01:00  [INF] Content root path: "/Users/camillacarlsen/Documents/GitHub/KundeserviceModul/KundeserviceModul" (b5d60022)
+2020-11-06T14:56:10.7518320+01:00  [INF] Now listening on: "https://localhost:5001" (d826f4b8)
+2020-11-06T14:56:10.7611970+01:00  [INF] Now listening on: "http://localhost:5000" (d826f4b8)
+2020-11-06T14:56:10.7615940+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-11-06T14:56:10.7616480+01:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-11-06T14:56:10.7617030+01:00  [INF] Content root path: "/Users/camillacarlsen/Documents/GitHub/KundeserviceModul/KundeserviceModul" (b5d60022)
+2020-11-06T15:03:33.5980780+01:00  [INF] Now listening on: "https://localhost:5001" (d826f4b8)
+2020-11-06T15:03:33.6044470+01:00  [INF] Now listening on: "http://localhost:5000" (d826f4b8)
+2020-11-06T15:03:33.6158550+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-11-06T15:03:33.6159420+01:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-11-06T15:03:33.6160120+01:00  [INF] Content root path: "/Users/camillacarlsen/Documents/GitHub/KundeserviceModul/KundeserviceModul" (b5d60022)

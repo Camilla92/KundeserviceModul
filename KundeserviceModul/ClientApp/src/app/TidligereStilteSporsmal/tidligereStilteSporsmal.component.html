@@ -1,7 +1,7 @@
 ﻿
 
 <h1>Tidligere stilte spørsmål</h1>
-<div>
+<!-- <div>
     <button class="btn btn-outline-secondary" (click)='hentAlleSporsmal()'>Hent spørsmål</button>
     {{laster}}
 
@@ -23,7 +23,7 @@
 
             <!--<button type="button" class="btn btn-outline-primary btn-sm" [disabled]="buttons[indeks]" (click)="buttons[indeks] = true">Liker</button>-->
 
-            <button type="button" class="btn btn-outline-danger btn-sm" routerLink="/nyttSporsmal"> Nytt spørsmål</button>
+            <!--<button type="button" class="btn btn-outline-danger btn-sm" routerLink="/nyttSporsmal"> Nytt spørsmål</button>
             <div>Mine liker: {{liker}}</div>
             <div id="utskrift" style="color:green"></div>
 
@@ -36,7 +36,7 @@
 
 </div>
 
-</div>
+</div> -->
 
 <!--<div>
     <button class="btn btn-outline-secondary" (click)='hentAlleSporsmal()'>Hent spørsmål</button>
@@ -127,3 +127,25 @@
         </ng-template>
     </ngb-panel>
 </ngb-accordion>-->
+
+
+
+<div *ngIf="laster"></div>
+<div *ngFor='let svarene of alleSporsmal; index as indeks'>
+
+    <ngb-accordion [closeOthers]="true" activeIds="static-1">
+        <ngb-panel id="static-1" title="{{svarene.svarId}}. {{svarene.sporsmalet}}">
+           {{vent}}
+            <ng-template ngbPanelContent>
+                {{svarene.svaret}}
+                <br />
+                
+                <button type="button" class="btn btn-outline-primary btn-sm" [disabled]="buttons[indeks]" (click)="lagreVurdering(svarene.svarId); buttons[indeks]=true">Liker {{liker}}</button>
+                    <button type="button" class="btn btn-outline-danger btn-sm" routerLink="/nyttSporsmal"> Nytt spørsmål</button>
+                    <div id="liker[indeks]">Mine liker: {{liker}}</div>
+                    <div id="utskrift" style="color:green"></div>
+            </ng-template>
+        </ngb-panel>
+    </ngb-accordion>
+
+    </div> 

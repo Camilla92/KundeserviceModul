@@ -4,6 +4,7 @@ using System.Threading.Tasks;
 using KundeserviceModul.DAL;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
+using Microsoft.EntityFrameworkCore;
 
 namespace KundeserviceModul.Controllers
 {
@@ -46,13 +47,39 @@ namespace KundeserviceModul.Controllers
 
         }
 
+
+        /*
+          try
+            {
+                 try
+            {
+                var qa = _databaseContext.QandAs.FirstOrDefault(q => q.Id == id);
+                if (qa != null) qa.UpVotes += 1;
+                _databaseContext.SaveChanges();
+                return true;
+            }
+            catch
+            {
+                return false;
+            }
+                if (qa != null) qa.UpVotes += 1;
+                _databaseContext.SaveChanges();
+                return true;
+            }
+            catch
+            {
+                return false;
+            }*/
+
         [HttpPost("lagreVurdering")]
-        public async Task<ActionResult> LagreVurdering(SporsmalSvar innID, int innVurderingLiker)
+        //[FromBody] int innId
+        public async Task<ActionResult> LagreVurdering(SporsmalSvar innSporsmalSvar)
         {
             if (ModelState.IsValid)
             {
 
-                bool returOk = await _db.LagreVurdering(innID, innVurderingLiker);
+                
+                bool returOk = await _db.LagreVurdering(innSporsmalSvar);
                 if (!returOk)
                 {
                     _log.LogInformation("Vurderingen ble ikke registrert");
@@ -61,7 +88,7 @@ namespace KundeserviceModul.Controllers
                 return Ok();
             }
             _log.LogInformation("Feil i inputvalidering");
-            return BadRequest("Feil i inputvalidering på server");
+            return BadRequest();
 
         }
 

@@ -424,3 +424,14 @@ app/TidligereStilteSporsmal/tidligereStilteSporsmal.component.ts:72:25 - error T
 2020-11-05T14:11:03.3624540+01:00  [ERR]     ERROR in src/app/TidligereStilteSporsmal/tidligereStilteSporsmal.component.ts(71,61): error TS2304: Cannot find name 'svarId'.
     
  (66e91769)
+2020-11-05T14:39:50.6285840+01:00  [INF] Now listening on: "https://localhost:5001" (d826f4b8)
+2020-11-05T14:39:50.6372520+01:00  [INF] Now listening on: "http://localhost:5000" (d826f4b8)
+2020-11-05T14:39:50.6378340+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-11-05T14:39:50.6379060+01:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-11-05T14:39:50.6379920+01:00  [INF] Content root path: "/Users/camillacarlsen/Documents/GitHub/KundeserviceModul/KundeserviceModul" (b5d60022)
+2020-11-05T14:46:56.0709780+01:00  [ERR]     ERROR in src/app/TidligereStilteSporsmal/tidligereStilteSporsmal.component.ts(72,5): error TS2554: Expected 1 arguments, but got 0.
+    
+ (8e8c1841)
+2020-11-05T14:47:46.8172030+01:00  [ERR]     ERROR in src/app/TidligereStilteSporsmal/tidligereStilteSporsmal.component.ts(72,25): error TS2304: Cannot find name 'svarId'.
+    
+ (a07bdefc)
