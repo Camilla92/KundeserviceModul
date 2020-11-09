@@ -5,7 +5,7 @@ namespace KundeserviceModul.Model
 {
     public class InnsendteSporsmal
     {
-        //"[a-zA-ZøæåØÆÅ\\-.,/? ]{10,100}"
+        
         public int spmlID { get; set; }
         [RegularExpression(@"[a-zA-ZæøåÆØÅ. \-.,/?]{10,100}")]
         public string sporsmalet { get; set; }

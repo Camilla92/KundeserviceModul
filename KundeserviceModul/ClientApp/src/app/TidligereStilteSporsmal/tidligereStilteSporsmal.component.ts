@@ -3,7 +3,6 @@ import { HttpClient } from '@angular/common/http';
 import { FormGroup, FormControl, Validators, FormBuilder } from '@angular/forms';
 import { Router } from '@angular/router';
 import { NgModule } from '@angular/core';
-//import { Component } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
@@ -33,10 +32,7 @@ export class TidligereStilteSporsmalComponent {
 
   hentAlleSporsmal() {
 
-    ;
-
-    //HentAlle()fra controller
-
+   
     this._http.get<SporsmalSvar[]>("api/KundeService")
       .subscribe(data => {
         this.alleSporsmal = data;
@@ -48,16 +44,7 @@ export class TidligereStilteSporsmalComponent {
       );
 
   }
- 
-  /*liker2() {
-    
-    this.click1 = !this.click1;
-    this.liker++;
-    //let vurdering = this.alleSporsmal.find(f => f.svarId == svarId);
-    //this.lagreVurdering(svarId);
-    document.getElementById('utskrift').innerHTML = "Vurderingen din er sendt. Med vurderingen: " + this.liker;
-    
-  }*/
+
 
   ngOnInit() {
     this.laster = true;
@@ -66,20 +53,13 @@ export class TidligereStilteSporsmalComponent {
 
   lagreVurdering(svarId: number) {
 
-    //const enVurdering = new SporsmalSvar();
-    //må ha med svarid til svaret som blir ratet
-
-    //buttons[indeks] = true
-    //this.buttons = !this.buttons;
-    //this.liker++;
+ 
     let vurdering = this.alleSporsmal.find(f => f.svarId === svarId);
     if (vurdering != null) {
       vurdering.liker++;
-      //this.liker = vurdering.liker;
-     
+      
     }
 
-    //enVurdering.liker = this.liker;
    
 
     this._http.post("api/KundeService/lagreVurderingLiker", svarId)
@@ -90,8 +70,6 @@ export class TidligereStilteSporsmalComponent {
         error => console.log("feilen er" + error)
     );
 
-    //document.getElementById('utskrift[indeks]').innerHTML = "Vurderingen din er sendt.";
-    
   };
 
 
@@ -99,21 +77,11 @@ export class TidligereStilteSporsmalComponent {
 
   lagreVurderingMisliker(svarId: number) {
 
-    //const enVurdering = new SporsmalSvar();
-    //må ha med svarid til svaret som blir ratet
-
-    //buttons[indeks] = true
-    //this.buttons = !this.buttons;
-    //this.liker++;
     let vurdering = this.alleSporsmal.find(f => f.svarId === svarId);
     if (vurdering != null) {
       vurdering.misliker++;
-      //this.liker = vurdering.liker;
-
+     
     }
-
-    //enVurdering.liker = this.liker;
-
 
     this._http.post("api/KundeService/lagreVurderingMisliker", svarId)
       .subscribe(retur => {
@@ -122,9 +90,6 @@ export class TidligereStilteSporsmalComponent {
       },
         error => console.log("feilen er" + error)
       );
-
-    //document.getElementById('utskrift[indeks]').innerHTML = "Vurderingen din er sendt.";
-
   };
 
 

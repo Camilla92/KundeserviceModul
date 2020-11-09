@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
 import { FormGroup, FormControl, Validators, FormBuilder } from '@angular/forms';
-//import { error } from 'protractor';
 import { HttpClient } from '@angular/common/http';
 import { Router } from '@angular/router';
 
@@ -10,10 +9,8 @@ import { Router } from '@angular/router';
 })
 export class NyttSporsmalComponent {
 
-  //visSkjemaRegistrere: boolean;
-  //visListe: boolean;
   Skjema: FormGroup;
-  //innsendteSporsmal: Array<InnsendteSporsmal> = [];
+
 
   constructor(private _http: HttpClient, private fb: FormBuilder, private router: Router) {
     this.Skjema = fb.group({
@@ -38,16 +35,10 @@ export class NyttSporsmalComponent {
   lagre() {
 
     const etSporsmal = new InnsendteSporsmal();
-    /*this.innsendteSporsmal.push(etSporsmal);
-    this.sporsmalet = "";
-    this.epost = "";*/
-    //lagretKunde.poststed = this.skjema.value.poststed;
 
     etSporsmal.sporsmalet = this.Skjema.value.dittSporsmal;
     etSporsmal.epost = this.Skjema.value.dinEpost;
 
-
-    //api/{KundeService}/{action}{Lagre}"
 
     this._http.post("api/KundeService/lagre", etSporsmal)
     .subscribe(retur => {

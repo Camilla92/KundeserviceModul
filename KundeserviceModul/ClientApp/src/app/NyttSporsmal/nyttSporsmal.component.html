@@ -10,7 +10,6 @@
             <div class="form-group">
                 <h5>Her kan du stille et nytt spørsmål om våre tjenester: </h5>
                 
-
                 <label for="exampleFormControlInput1">Epostadresse</label>
                 <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" formControlName="dinEpost" required>
                 <div *ngIf="this.Skjema.controls.dinEpost.status=='INVALID'" style="color:red" >Epost må være av dette formatet: name@example.com </div>

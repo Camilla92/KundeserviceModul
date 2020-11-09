@@ -48,29 +48,6 @@ namespace KundeserviceModul.Controllers
         }
 
 
-        /*
-          try
-            {
-                 try
-            {
-                var qa = _databaseContext.QandAs.FirstOrDefault(q => q.Id == id);
-                if (qa != null) qa.UpVotes += 1;
-                _databaseContext.SaveChanges();
-                return true;
-            }
-            catch
-            {
-                return false;
-            }
-                if (qa != null) qa.UpVotes += 1;
-                _databaseContext.SaveChanges();
-                return true;
-            }
-            catch
-            {
-                return false;
-            }*/
-
         [HttpPost("lagreVurderingLiker")]
         
         public async Task<ActionResult> LagreVurderingLiker([FromBody] int id)
