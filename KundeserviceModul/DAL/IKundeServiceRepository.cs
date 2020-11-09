@@ -10,8 +10,9 @@ namespace KundeserviceModul.DAL
 
         Task<bool> Lagre(InnsendteSporsmal innSporsmal);
         Task<List<SporsmalSvar>> HentAlle();
-        Task<bool> LagreVurdering(SporsmalSvar innsendtVurdering);
-        
-        
+        Task<bool> LagreVurderingLiker(int id);
+        Task<bool> LagreVurderingMisliker(int id);
+
+
     }
 }

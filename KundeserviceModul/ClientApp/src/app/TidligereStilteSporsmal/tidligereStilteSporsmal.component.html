@@ -134,16 +134,23 @@
 <div *ngFor='let svarene of alleSporsmal; index as indeks'>
 
     <ngb-accordion [closeOthers]="true" activeIds="static-1">
-        <ngb-panel id="static-1" title="{{svarene.svarId}}. {{svarene.sporsmalet}}">
+        <ngb-panel id="static0" title="{{svarene.svarId}}. {{svarene.sporsmalet}}">
            {{vent}}
             <ng-template ngbPanelContent>
                 {{svarene.svaret}}
                 <br />
+                <br />
+                <div id="liker[indeks]" style="color:blue">{{svarene.liker}} har likt dette.</div>
+                <div id="misliker[indeks]" style="color:red">{{svarene.misliker}} har mislikt dette.</div>
                 
-                <button type="button" class="btn btn-outline-primary btn-sm" [disabled]="buttons[indeks]" (click)="lagreVurdering(svarene.svarId); buttons[indeks]=true">Liker {{liker}}</button>
-                    <button type="button" class="btn btn-outline-danger btn-sm" routerLink="/nyttSporsmal"> Nytt spørsmål</button>
-                    <div id="liker[indeks]">Mine liker: {{liker}}</div>
-                    <div id="utskrift" style="color:green"></div>
+                <button type="button" class="btn btn-outline-primary btn-sm" [disabled]="buttons[indeks]" (click)="lagreVurdering(svarene.svarId); buttons[indeks]=true">Liker</button>
+                <button type="button" class="btn btn-outline-danger btn-sm" [disabled]="buttons[indeks]" (click)="lagreVurderingMisliker(svarene.svarId); buttons[indeks]=true">Misliker</button>
+
+                <button type="button" class="btn btn-outline-secondary btn-sm" routerLink="/nyttSporsmal"> Nytt spørsmål</button>
+                <br />
+
+                <br/>
+                <div *ngIf="buttons[indeks]" id="utskrift" style="color:green">Takk for vurderingen!</div>
             </ng-template>
         </ngb-panel>
     </ngb-accordion>

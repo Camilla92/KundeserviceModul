@@ -71,15 +71,37 @@ namespace KundeserviceModul.Controllers
                 return false;
             }*/
 
-        [HttpPost("lagreVurdering")]
-        //[FromBody] int innId
-        public async Task<ActionResult> LagreVurdering(SporsmalSvar innSporsmalSvar)
+        [HttpPost("lagreVurderingLiker")]
+        
+        public async Task<ActionResult> LagreVurderingLiker([FromBody] int id)
         {
             if (ModelState.IsValid)
             {
 
                 
-                bool returOk = await _db.LagreVurdering(innSporsmalSvar);
+                bool returOk = await _db.LagreVurderingLiker(id);
+                if (!returOk)
+                {
+                    _log.LogInformation("Vurderingen ble ikke registrert");
+                    return BadRequest("Vurderingen ble ikke registrert");
+                }
+                return Ok();
+            }
+            _log.LogInformation("Feil i inputvalidering");
+            return BadRequest();
+
+        }
+
+
+        [HttpPost("lagreVurderingMisliker")]
+        
+        public async Task<ActionResult> LagreVurderingMisliker([FromBody] int id)
+        {
+            if (ModelState.IsValid)
+            {
+
+
+                bool returOk = await _db.LagreVurderingMisliker(id);
                 if (!returOk)
                 {
                     _log.LogInformation("Vurderingen ble ikke registrert");

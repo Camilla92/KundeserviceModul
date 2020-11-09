@@ -75,14 +75,14 @@ export class TidligereStilteSporsmalComponent {
     let vurdering = this.alleSporsmal.find(f => f.svarId === svarId);
     if (vurdering != null) {
       vurdering.liker++;
-      this.liker = vurdering.liker;
+      //this.liker = vurdering.liker;
      
     }
 
     //enVurdering.liker = this.liker;
+   
 
-
-    this._http.post("api/KundeService/lagreVurdering", svarId)
+    this._http.post("api/KundeService/lagreVurderingLiker", svarId)
       .subscribe(retur => {
         
         this.router.navigate(["/"]);
@@ -90,8 +90,41 @@ export class TidligereStilteSporsmalComponent {
         error => console.log("feilen er" + error)
     );
 
-    document.getElementById('utskrift').innerHTML = "Vurderingen din er sendt. Med vurderingen: " + this.liker;
+    //document.getElementById('utskrift[indeks]').innerHTML = "Vurderingen din er sendt.";
     
+  };
+
+
+
+
+  lagreVurderingMisliker(svarId: number) {
+
+    //const enVurdering = new SporsmalSvar();
+    //må ha med svarid til svaret som blir ratet
+
+    //buttons[indeks] = true
+    //this.buttons = !this.buttons;
+    //this.liker++;
+    let vurdering = this.alleSporsmal.find(f => f.svarId === svarId);
+    if (vurdering != null) {
+      vurdering.misliker++;
+      //this.liker = vurdering.liker;
+
+    }
+
+    //enVurdering.liker = this.liker;
+
+
+    this._http.post("api/KundeService/lagreVurderingMisliker", svarId)
+      .subscribe(retur => {
+
+        this.router.navigate(["/"]);
+      },
+        error => console.log("feilen er" + error)
+      );
+
+    //document.getElementById('utskrift[indeks]').innerHTML = "Vurderingen din er sendt.";
+
   };
 
 
@@ -102,6 +135,7 @@ export class SporsmalSvar {
   sporsmalet: String;
   svaret: String;
   liker: number;
+  misliker: number;
  
 
 }
